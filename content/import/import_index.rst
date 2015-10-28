@@ -1,10 +1,24 @@
-.. _load_index:
+.. _import_index:
 
-Section on loading objects into GIFtools
-========================================
+Importation
+===========
+
+Data
+----
 
 .. toctree::
     :maxdepth: 1
 
-    ./data/magData
+    Magnetic data <data/magData>
+    Gravity data <data/gravData>
+
+
+Mesh
+----
+
+.. toctree::
+    :maxdepth: 1
+
+    3D mesh <mesh/mesh3D>
+
 

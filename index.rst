@@ -3,20 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to GIFtoolsCookbook's documentation!
-============================================
-
-Contents:
-
+GIFtools Cookbook
+=================
+   
 .. toctree::
-   :maxdepth: 2
+    :maxdepth: 1
 
-   content/import/import_index
+    content/import/import_index
+    content/create/create_index
+    content/export/export_index
+    content/fileFormats/format_index
 
-
-..   content/create/create_index
-..   content/export/export_index
-.. content/fileFormats/fileFormats_index
+.. Creation
+.. Exportation
 
 .. Indices and table
 .. ==================
