@@ -1,11 +1,11 @@
-.. _mesh3D:
+.. _mesh2D:
 
 .. include:: <isonum.txt>
 
-Importing a 3D mesh
+Importing a 2D mesh
 ===================
 
-Use the main project menu: **Import** |rarr| **Mesh** |rarr| **3D**
+Use the main project menu: **Import** |rarr| **Mesh** |rarr| **2D**
 
 .. figure:: ..\..\..\images\importMesh.png
     :align: center
@@ -14,6 +14,6 @@ Use the main project menu: **Import** |rarr| **Mesh** |rarr| **3D**
 File format
 -----------
 
-Refer to :ref:'mesh3Dfile' for file format.
+Refer to :ref:'mesh2Dfile' for file format.
 
 

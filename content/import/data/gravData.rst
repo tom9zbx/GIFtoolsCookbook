@@ -1,22 +1,24 @@
 .. _gravData:
 
+.. include:: <isonum.txt>
+
 Importing gravity data
 ======================
-Use the project **import** menu:
 
-.. .. figure:: ..\..\..\images\loadMagGen.png
-..    :align: center
-..    :width: 400
+Use the main project menu: **Import** |rarr| **Data** |rarr| **Gravity**
+
+.. figure:: ..\..\..\images\loadGravGen.png
+    :align: center
+    :width: 400
 
 
 File formats
 ------------
-Gravity data can be loaded in three main file types:
+
+Gravity data can be loaded in from three main file types:
 
     - :ref:`GIF format <gravfile>`
     - :ref:`XYZ format <XYZfile>`
     - :ref:`CSV format <CSVfile>`
 
-
-.. GIF :ref:'mag' for file format.
 

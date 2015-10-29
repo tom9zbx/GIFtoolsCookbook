@@ -1,8 +1,11 @@
 .. _magData:
 
+.. include:: <isonum.txt>
+
 Importing magnetic data
 =======================
-Use the project **import** menu:
+
+Use the main project menu: **Import** |rarr| **Data** |rarr| **Magnetics**
 
 .. figure:: ..\..\..\images\loadMagGen.png
     :align: center
@@ -11,12 +14,11 @@ Use the project **import** menu:
 
 File formats
 ------------
-Magnetic data can be loaded in three main file types:
+
+Magnetic data can be loaded from three main file types:
 
     - :ref:`GIF format <magfile>`
     - :ref:`XYZ format <XYZfile>`
     - :ref:`CSV format <CSVfile>`
 
-
-.. GIF :ref:'mag' for file format.
 
