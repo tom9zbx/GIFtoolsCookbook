@@ -10,3 +10,6 @@ File Formats
     XYZfile
     CSVfile
     magfile
+    gravfile
+
+
