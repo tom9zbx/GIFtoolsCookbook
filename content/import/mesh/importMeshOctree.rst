@@ -1,4 +1,4 @@
-.. _meshOctree:
+.. _importMeshOctree:
 
 .. include:: <isonum.txt>
 
@@ -14,6 +14,6 @@ Use the main project menu: **Import** |rarr| **Mesh** |rarr| **Octree**
 File format
 -----------
 
-Refer to :ref:'meshOctreefile' for file format.
+Refer to :ref:`meshOctreefile` for file format.
 
 

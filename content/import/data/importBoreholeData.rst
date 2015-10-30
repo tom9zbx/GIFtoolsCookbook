@@ -16,8 +16,8 @@ File formats
 
 See below links for specifics on the files associated with borehole data:
 
-    - :ref:`Collar file <collarfile>`
-    - :ref:`Survey file <surveyfile>`
-    - :ref:`Property file <propertyfile>`      
+    - :ref:`Collar file <bhCollarfile>`
+    - :ref:`Survey file <bhSurveyfile>`
+    - :ref:`Property file <bhPropfile>`      
 
 

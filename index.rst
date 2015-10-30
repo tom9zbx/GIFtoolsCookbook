@@ -10,9 +10,12 @@ GIFtools Cookbook
     :maxdepth: 1
 
     content/import/import_index
-    content/create/create_index
-    content/export/export_index
+    content/generalFunctionality/generalFunctionality_index    
     content/fileFormats/format_index
+
+..    content/create/create_index
+..    content/export/export_index
+
 
 .. Creation
 .. Exportation

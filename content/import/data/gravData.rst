@@ -15,7 +15,7 @@ Use the main project menu: **Import** |rarr| **Data** |rarr| **Gravity**
 File formats
 ------------
 
-Gravity data can be loaded in from three main file types:
+Gravity data can be imported in from three main file types:
 
     - :ref:`GIF format <gravfile>`
     - :ref:`XYZ format <XYZfile>`

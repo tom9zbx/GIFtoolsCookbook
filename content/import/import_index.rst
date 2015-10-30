@@ -12,7 +12,11 @@ Data
     Magnetic data <data/magData>
     Gravity data <data/gravData>
     Topography <data/importTopo>
-    Miscellaneous property data <data/importProp>    
+    DC/IP (3D) <data/importDCIP3Ddata>
+    DC/IP (2D) <data/importDCIP2Ddata>
+    Borehole <data/importBoreholeData>
+    Miscellaneous property data <data/importProp>
+
 
 
 Mesh
@@ -21,7 +25,17 @@ Mesh
 .. toctree::
     :maxdepth: 1
 
-    2D mesh <mesh/mesh2D>
-    3D mesh <mesh/mesh3D>    
-    OcTree mesh <mesh/meshOctree>
+    2D mesh <mesh/importMesh2D>
+    3D mesh <mesh/importMesh3D>    
+    OcTree mesh <mesh/importMeshOctree>
 
+
+Model
+-----
+
+.. toctree::
+    :maxdepth: 1
+
+    Cell centred (common) <model/importModel>
+    Vector <model/importVectorModel>    
+    Active <model/importActiveModel>

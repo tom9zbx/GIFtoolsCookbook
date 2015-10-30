@@ -2,6 +2,9 @@
 
 REM Command file for Sphinx documentation
 
+REM Remove any swap files left from VIM:
+del /S *.*~
+
 if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD=sphinx-build
 )

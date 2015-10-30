@@ -1,7 +1,7 @@
 .. _magfile:
 
 Magnetic observations: GIF file
--------------------------------
+===============================
 
 This file is used to specify the inducing field parameters, anomaly type, observation locations, and the observed magnetic anomalies with estimated standard deviation. The values of parameters specifying the inducing field anomaly type and observation locations are identical to those in file. The output of the forward modelling program has the same structure except that the column of standard deviations for the error is omitted. Lines starting with ! are comments. GIFtools will read either format through when importing a magnetic data set in GIF format. The structure of the GIF-formatted magnetics observations file is:
 
@@ -43,7 +43,7 @@ which are derived by removing the regional from the field measurements. It is cr
 such as the Bx or By. Easting, northing, and elevation information should be in the same coordinate system as defined in the mesh.
 
 Examples 
-^^^^^^^^
+--------
 
 The following are two examples of data files. The first example file
 specifies a set of total field anomaly data, and the second example file
