@@ -20,7 +20,7 @@ Example
 
 Below is a sample survey file (XYZ format) where "HID" is the Hole_ID and "DEPTH" is the Length:
 
-.. figure:: ..\..\images\surveyfile.png
+.. figure:: ../../images/surveyfile.png
    :align: center
 
 

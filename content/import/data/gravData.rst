@@ -7,7 +7,7 @@ Importing gravity data
 
 Use the main project menu: **Import** |rarr| **Data** |rarr| **Gravity**
 
-.. figure:: ..\..\..\images\loadGravGen.png
+.. figure:: ../../../images/loadGravGen.png
     :align: center
     :width: 400
 

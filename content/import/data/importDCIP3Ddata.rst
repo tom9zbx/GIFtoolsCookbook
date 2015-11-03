@@ -7,7 +7,7 @@ Importing DC/IP 3D data
 
 Use the main project menu: **Import** |rarr| **DC/IP** |rarr| **3D**
 
-.. figure:: ..\..\..\images\importDCIP3Ddata.png
+.. figure:: ../../../images/importDCIP3Ddata.png
     :align: center
     :width: 400
 

@@ -13,17 +13,3 @@ GIFtools Cookbook
     content/generalFunctionality/generalFunctionality_index    
     content/fileFormats/format_index
 
-..    content/create/create_index
-..    content/export/export_index
-
-
-.. Creation
-.. Exportation
-
-.. Indices and table
-.. ==================
-
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
-

@@ -14,6 +14,7 @@ Data
     magfile
     gravfile
     dcip2dObsfile
+    dcip3dObsfile    
     collarfile
     surveyfile
     bhpropfile
@@ -25,8 +26,9 @@ Topography
 .. toctree::
     :maxdepth: 1
 
-    topoGIF3Dfile
     topoGIF2Dfile
+    topoGIF3Dfile
+    topoDiscretefile    
 
 Meshes
 ^^^^^^

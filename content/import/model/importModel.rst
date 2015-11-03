@@ -9,7 +9,7 @@ Importing a model first requires a mesh. The import dialog will prompt the user 
 
 Use the main project menu: **Import** |rarr| **Model** |rarr| **Cell centred**
 
-.. figure:: ..\..\..\images\importModel.png
+.. figure:: ../../../images/importModel.png
     :align: center
     :width: 400
 

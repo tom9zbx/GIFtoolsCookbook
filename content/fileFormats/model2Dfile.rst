@@ -10,7 +10,7 @@ coorespond to the values given in the file.
 
 An example of the file structure is as follows:
 
-.. figure:: ..\..\images\modelfile2D.png
+.. figure:: ../../images/modelfile2D.png
     :align: center
 
 - :math:`N_x`: Number of cells in the horizontal direction
@@ -33,7 +33,7 @@ Example
 
 The following is an example of a model:
 
-.. figure:: ..\..\images\modelfile2Dex.png
+.. figure:: ../../images/modelfile2Dex.png
     :align: center
 
 In the above example, there are 10 horizontal cells and 3 vertical cell

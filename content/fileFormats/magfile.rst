@@ -5,7 +5,7 @@ Magnetic observations: GIF file
 
 This file is used to specify the inducing field parameters, anomaly type, observation locations, and the observed magnetic anomalies with estimated standard deviation. The values of parameters specifying the inducing field anomaly type and observation locations are identical to those in file. The output of the forward modelling program has the same structure except that the column of standard deviations for the error is omitted. Lines starting with ! are comments. GIFtools will read either format through when importing a magnetic data set in GIF format. The structure of the GIF-formatted magnetics observations file is:
 
-.. figure:: ..\..\images\magObs.png
+.. figure:: ../../images/magObs.png
     :align: center
 
 
@@ -51,12 +51,12 @@ provides a set of multi-component borehole data.
 
 **Example 1**: single-component data
 
-.. figure:: ..\..\images\surfaceMagEx.png
+.. figure:: ../../images/surfaceMagEx.png
     :align: center
 
 
 **Example 2**: Multi-component data
 
-.. figure:: ..\..\images\boreholeMagEx.png
+.. figure:: ../../images/boreholeMagEx.png
     :align: center
 

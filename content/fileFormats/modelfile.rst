@@ -5,7 +5,7 @@
 
 This file contains the cell property values of the model and is the most common of the model files. Inversion models (forward, initial, reference, recovered, and most lower and upper bound) are in this format. The following is the file structure of the model file
 
-.. figure:: ..\..\images\modelfile.png
+.. figure:: ../../images/modelfile.png
     :align: center
 
 

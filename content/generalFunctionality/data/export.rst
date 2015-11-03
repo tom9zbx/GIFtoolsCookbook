@@ -11,7 +11,7 @@ Select data object then menu with the class of the object (e.g., **TEMdata**) |r
 
 Below is an example using MAGdata and exporting for MAG3D:
 
-.. figure:: ..\..\..\images\dataGenEdit.png
+.. figure:: ../../../images/dataGenEdit.png
     :align: center
     :width: 400
 

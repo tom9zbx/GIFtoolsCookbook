@@ -7,7 +7,7 @@ Importing magnetic data
 
 Use the main project menu: **Import** |rarr| **Data** |rarr| **Magnetics**
 
-.. figure:: ..\..\..\images\loadMagGen.png
+.. figure:: ../../../images/loadMagGen.png
     :align: center
     :width: 400
 

@@ -7,7 +7,7 @@ Importing an ocTree mesh
 
 Use the main project menu: **Import** |rarr| **Mesh** |rarr| **Octree**
 
-.. figure:: ..\..\..\images\importMesh.png
+.. figure:: ../../../images/importMesh.png
     :align: center
     :width: 400
 

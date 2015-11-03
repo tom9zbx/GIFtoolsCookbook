@@ -7,7 +7,7 @@ Importing DC/IP 2D data
 
 Use the main project menu: **Import** |rarr| **DC/IP** |rarr| **2D**
 
-.. figure:: ..\..\..\images\importDCIP2Ddata.png
+.. figure:: ../../../images/importDCIP2Ddata.png
     :align: center
     :width: 400
 

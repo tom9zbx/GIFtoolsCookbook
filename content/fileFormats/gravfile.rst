@@ -5,7 +5,7 @@ Gravity observations: GIF file
 
 This file is used to specify the observation locations and observed gravity anomalies with estimated standard deviation. The output of the forward modelling program ``gzfor3d`` has the same structure except that the column of standard deviations for the error is omitted. Lines starting with ! are comments. The following is the GIF-formatted file structure of a gravity observations file:
 
-.. figure:: ..\..\images\gravObs.png
+.. figure:: ../../images/gravObs.png
     :align: center
 
 Parameter definitions:
@@ -32,7 +32,7 @@ in ``mGal``.
 Example 
 -------
 
-.. figure:: ..\..\images\gravObsEx.png
+.. figure:: ../../images/gravObsEx.png
     :align: center
 
 

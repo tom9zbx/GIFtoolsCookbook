@@ -7,7 +7,7 @@ Importing topography
 
 Use the main project menu: **Import** |rarr| **Topo**
 
-.. figure:: ..\..\..\images\importTopo.png
+.. figure:: ../../../images/importTopo.png
     :align: center
     :width: 400
 

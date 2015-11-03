@@ -9,7 +9,7 @@ GIFtools will allow the user to export any mesh object at any time. Select mesh 
 
 Below is an example for a 3D mesh:
 
-.. figure:: ..\..\..\images\meshGen.png
+.. figure:: ../../../images/meshGen.png
     :align: center
     :width: 400
 

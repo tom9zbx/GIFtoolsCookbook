@@ -2,9 +2,6 @@
 
 REM Command file for Sphinx documentation
 
-REM Remove any swap files left from VIM:
-del /S *.*~
-
 if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD=sphinx-build
 )
@@ -45,6 +42,9 @@ if "%1" == "help" (
 )
 
 if "%1" == "clean" (
+REM Remove any swap files left from VIM:
+	del /S *.*~
+REM continue to do its thing:
 	for /d %%i in (%BUILDDIR%\*) do rmdir /q /s %%i
 	del /q /s %BUILDDIR%\*
 	goto end

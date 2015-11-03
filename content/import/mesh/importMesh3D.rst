@@ -7,7 +7,7 @@ Importing a 3D mesh
 
 Use the main project menu: **Import** |rarr| **Mesh** |rarr| **3D**
 
-.. figure:: ..\..\..\images\importMesh.png
+.. figure:: ../../../images/importMesh.png
     :align: center
     :width: 400
 

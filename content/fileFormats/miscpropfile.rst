@@ -17,7 +17,7 @@ Examples
 
 Below is a sample property file (XYZ format) giving the drill outline of a kimberlite:
 
-.. figure:: ..\..\images\miscPropfile.png
+.. figure:: ../../images/miscPropfile.png
    :align: center
 
 

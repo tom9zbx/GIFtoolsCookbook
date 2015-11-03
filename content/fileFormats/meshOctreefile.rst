@@ -5,7 +5,7 @@ OcTree mesh file
 
 The ocTree mesh defines the model region, but the underlying mesh is defined as a regular 3D orthogonal grid (referred to as the "core" grid) where the number of cells in each dimension are :math:`2^{m1} \times 2^{m2} \times 2^{m3}`,with grid size \\( h \\). This underlying mesh is the finest possible, so that larger cells have lengths which increase by powers of 2 multiplied by \\( h \\). The file has the following structure:
 
-.. figure:: ..\..\images\meshOctree.png
+.. figure:: ../../images/meshOctree.png
     :align: center
 
 
@@ -37,7 +37,7 @@ Example
 
 This example shows a mesh that has a core of \\( 1024 \\times 1024 \\times 1024 \\) cells at 10-m width in each direction. The mesh has the optional padding cells given to define the core of the mesh for viewing. There are 3,719,976 total cells with the first eight being  \\( 128 \\times 128 \\times 128 \\) core cells in size. The first \\( [i,j,k] \\) line is located at top, south-west corner of the mesh.
 
-.. figure:: ..\..\images\meshOctreeEx.png
+.. figure:: ../../images/meshOctreeEx.png
     :align: center
 
 

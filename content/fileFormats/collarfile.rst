@@ -21,7 +21,7 @@ Example
 
 Below is a sample collar file (CSV format) where "hole" is the Hole_ID and "depth" is the Length:
 
-.. figure:: ..\..\images\collarfile.png
+.. figure:: ../../images/collarfile.png
    :align: center
 
 

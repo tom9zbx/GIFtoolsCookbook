@@ -7,7 +7,7 @@ This is the file used to define a finite difference mesh for 2D modelling and in
 
 An example of the file structure is as follows:
 
-.. figure:: ..\..\images\mesh2D.png
+.. figure:: ../../images/mesh2D.png
     :align: center
 
 - Number of segments used to define the horizontal partitioning
@@ -28,7 +28,7 @@ Example
 
 The following is an example of a 2D mesh:
 
-.. figure:: ..\..\images\mesh2Dex.png
+.. figure:: ../../images/mesh2Dex.png
     :align: center
 
 In the above example, the mesh is :math:`(48 \times 27)` covering from :math:`x = [-100,100]` and :math:`z=[0,300]` . There are 9 segments in the file defining the horizontal partitioning which goes from :math:`x=-300` to :math:`x=300`. The region :math:`x=[-100,100]` has been divided into 40 equal length cells. Four padding cells of increasing width extend the mesh out to :math:`x=[-300,300]`. In depth, there are 14 segments over the depth range :math:`z=[0,300]`. Note that the bottom depth is considerably larger than the depth of investigation of the survey. This procedure is carried out automatically in all-default mode. If default meshing is chosen, the horizontal cell size is set to :math:`1/3` the average electrode spacing. The vertical discretization is set to accommodate 1:2 vertical to horizontal ratio and the padding is increased by 1.5 times.

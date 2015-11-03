@@ -7,7 +7,7 @@ Assigning uncertainties
 
 Assigning uncertainties is vital to inversion and therefor is also required as an :ref:`i/o header<setioHeaders>`. To assign uncertainties to a data object, click on the object and select the menu **Data manipulation** |rarr| **Assign uncertainties**
 
-.. figure:: ..\..\..\images\uncert.png
+.. figure:: ../../../images/uncert.png
     :align: center
     :width: 400
 
@@ -23,7 +23,7 @@ Assigning uncertainties is vital to inversion and therefor is also required as a
 An example from FEM data (TEM is the same structure):
 
 
-.. figure:: ..\..\..\images\EMuncert.png
+.. figure:: ../../../images/EMuncert.png
     :align: center
     :width: 400
 

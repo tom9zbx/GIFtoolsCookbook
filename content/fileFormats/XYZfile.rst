@@ -15,7 +15,7 @@ GIFtools assumes all XYZ files are in a specific format. The file should have an
  
 Below is a sample XYZ file with the header [X Y Z Total_Field]:
 
-.. figure:: ..\..\images\XYZfileEx.png
+.. figure:: ../../images/XYZfileEx.png
    :align: center
 
 

@@ -10,7 +10,7 @@ GIFtools will allow the user to export any model object at any time.
 Select the GIFmodel object then the menu **GIFmodel** |rarr| **Export** 
 
 
-.. figure:: ..\..\..\images\modelGen.png
+.. figure:: ../../../images/modelGen.png
     :align: center
     :width: 400
 
