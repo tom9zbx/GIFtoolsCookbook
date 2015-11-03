@@ -16,6 +16,10 @@ GIFtools Cookbook
 ..    content/create/create_index
 ..    content/export/export_index
 
+.. raw:: html
+
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/_sAfUpGmnm4" frameborder="0" allowfullscreen></iframe>
+
 
 .. Creation
 .. Exportation
