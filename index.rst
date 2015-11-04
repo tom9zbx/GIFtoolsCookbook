@@ -15,3 +15,5 @@ Welcome to the GIFtools cookbook! Below you will find the quick-start guide to h
     content/generalFunctionality/generalFunctionality_index    
     content/fileFormats/format_index
 
+
+
