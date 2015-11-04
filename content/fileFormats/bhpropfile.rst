@@ -21,7 +21,7 @@ Example 1: Length
 ^^^^^^^^^^^^^^^^^
 Below is a sample borehole property file (XYZ format) where "ID" is the Hole_ID three properties can be imported (SI, G/CC, and S/M):
 
-.. figure:: ..\..\images\bhPropfile.png
+.. figure:: ../../images/bhPropfile.png
    :align: center
 
 
@@ -30,7 +30,7 @@ Example 1: Depth section
 
 Below is a sample borehole property file (XYZ format) where "HID" is the Hole_ID and "FROM" is the Depth_From, "TO" is the Depth_to (note NaN are the values of no data):
 
-.. figure:: ..\..\images\bhPropfileToFrom.png
+.. figure:: ../../images/bhPropfileToFrom.png
    :align: center
 
 
