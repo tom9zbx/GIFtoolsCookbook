@@ -18,7 +18,7 @@ Example
 
 Below is a sample geology definition file for two physical properties, density and magnetic susceptibility (also contains optional upper and lower bounds and a standard deviation column):
 
-.. figure:: ../../images/geoDeffile.png
+.. figure:: ../../images/geodeffile.png
    :align: center
 
 
