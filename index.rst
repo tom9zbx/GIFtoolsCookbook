@@ -10,7 +10,9 @@ Welcome to the GIFtools cookbook! Below you will find the quick-start guide to h
 
 .. toctree::
     :maxdepth: 1
-  
+
+    content/import/import_index
+    content/generalFunctionality/generalFunctionality_index    
     content/fileFormats/format_index
 
 

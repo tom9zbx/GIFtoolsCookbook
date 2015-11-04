@@ -13,12 +13,13 @@ A geology definition file is in either the :ref:`XYZ <XYZfile>` or :ref:`CSV <CS
 
  #. Ws: Smallest model component of the model objective function for generating weights. A "default" value is 1, with anything greater than 1 placing *more* emphasis on the property value and anything less than 1 placing *less* empthasis on the given property. 
 
+
 Example
 -------
 
 Below is a sample geology definition file for two physical properties, density and magnetic susceptibility (also contains optional upper and lower bounds and a standard deviation column):
 
-.. figure:: ../../images/geoDeffile.png
+ .. figure:: ../../images/geodeffile.png
    :align: center
 
 
