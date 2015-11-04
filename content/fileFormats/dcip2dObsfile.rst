@@ -16,8 +16,9 @@ General format
 
 The DCIP2D can handle arbitrary electrode configurations, and a mixture of different configurations can be present in the data file. This is accomplished by specifying the locations of four electrodes for each datum. Whenever the two current electrodes, or two potential electrodes, are given the identical location, that particular pair is considered to be a single pole with the negative electrode being at infinity. The format consists of a line with the current electrode location and number of potential electrode locations associated with it. Each location has :math:`x` and :math:`z` coordinates. An example of the format file structure is as follows:
 
-.. figure:: ../../images/dcip2dGeneralFile.png
+ .. figure:: ../../images/dcip2dGeneralFile.png
    :align: center
+
 
 - Comment Line: Any comments can go here. This line is ignored by dcinv2d
 
