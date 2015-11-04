@@ -6,11 +6,12 @@
 GIFtools Cookbook
 =================
 
-Welcome to the GIFtools cookbook! Below you will find the quick-start guide to help walk you through installation and general procedures. Below that, you will find links to other areas associated with using GIFtools.
+Welcome to the GIFtools cookbook! Below you will find the quick-start guide to help walk you through installation, navigation, and tutorial links. Below that, you will find links to other areas associated with using GIFtools.
 
 .. toctree::
     :maxdepth: 1
 
+    Quick-start guide <content/quickStartGuide>
     content/import/import_index
     content/generalFunctionality/generalFunctionality_index    
     content/fileFormats/format_index
