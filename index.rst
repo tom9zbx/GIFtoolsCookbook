@@ -5,7 +5,9 @@
 
 GIFtools Cookbook
 =================
-   
+
+Welcome to the GIFtools cookbook! Below you will find the quick-start guide to help walk you through installation and general procedures. Below that, you will find links to other areas associated with using GIFtools.
+
 .. toctree::
     :maxdepth: 1
 
