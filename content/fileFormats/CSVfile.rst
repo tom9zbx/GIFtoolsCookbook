@@ -7,7 +7,7 @@ The CSV file should have an *uncommented* header line and be comma delimited. Co
  
 Below is a sample CSV file with the header [HID,DEPTH,AZIMUTH,DIP]:
 
-.. figure:: ../../images/CSVfileEx.png
+ .. figure:: ../../images/CSVfileEx.png
    :align: center
 
 
