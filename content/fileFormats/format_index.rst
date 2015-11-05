@@ -19,7 +19,9 @@ Data
     surveyfile
     bhpropfile
     miscpropfile
-    
+    femfile
+    temfile
+    emTransmittersfile
 
 Topography
 ^^^^^^^^^^

@@ -16,7 +16,7 @@ Data
     DC/IP (2D) <data/importDCIP2Ddata>
     Borehole <data/importBoreholeData>
     Miscellaneous property data <data/importProp>
-
+    Frequency-domain EM data <data/importFemData>
 
 
 Mesh
