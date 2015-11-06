@@ -50,7 +50,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'GIFtoolsCookbook'
 copyright = u'2015, UBC-GIF'
-author = u'Kris Davis'
+author = u'UBC-GIF'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -177,7 +177,7 @@ html_static_path = ['_static']
 #html_show_sourcelink = True
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
-#html_show_sphinx = True
+html_show_sphinx = False
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
 #html_show_copyright = True
