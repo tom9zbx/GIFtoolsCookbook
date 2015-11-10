@@ -32,7 +32,7 @@ To access the table viewer (and editor), click on the data item and the use the 
 The shortcut for this viewer is ``control + t`` for any item selected in the tree.
 
 Statistics viewer
-^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
 
 GIFtools offers a histogram view with minor statistics of each column of data. To access the histogram viewer, click on the data item and the use the menu:
 
