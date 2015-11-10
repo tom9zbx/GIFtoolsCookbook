@@ -13,5 +13,5 @@ The working directory tells GIFtools where to output files (and run the inversio
     :align: center
     :width: 400
 
-
+**NOTE:** The shortcut for the functionality is ``control + d``.
 
