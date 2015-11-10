@@ -1,4 +1,4 @@
-.. _viewData:
+.. _viewModel:
 
 .. include:: <isonum.txt>
 

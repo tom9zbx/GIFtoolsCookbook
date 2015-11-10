@@ -7,7 +7,7 @@ Calculate a polynomial trend
 
 Any data column may have a polynomial trend calculated. For access to this feature via *magnetics* or *gravity* data, click on the data item of interest and use the menu below. For all other data types, this feature can be accessed though the :ref:`data viewer <viewData>` (See Note 2).
 
-**Data manipulation** |rarr| **Calculate** |rarr| **Polynomalial trend**
+**Data manipulation** |rarr| **Calculate** |rarr| **Polynomial trend**
 
 .. figure:: ../../../images/dataCalculate.png
     :align: center
