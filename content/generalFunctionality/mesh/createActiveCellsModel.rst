@@ -2,8 +2,8 @@
 
 .. include:: <isonum.txt>
 
-Creating an active cells model
-==============================
+Create an active cells model
+============================
 
 There are two active cell models that can be created from a mesh:
 

@@ -2,8 +2,8 @@
 
 .. include:: <isonum.txt>
 
-Importing miscellaneous property data
-=====================================
+Import miscellaneous property data
+==================================
 
 This type of data covers the range of anything someone would want to bring in that has a position and value (numeric or character).
 

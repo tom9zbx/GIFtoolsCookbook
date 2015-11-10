@@ -2,8 +2,8 @@
 
 .. include:: <isonum.txt>
 
-Importing an ocTree mesh
-========================
+Import an ocTree mesh
+=====================
 
 Use the main project menu: **Import** |rarr| **Mesh** |rarr| **Octree**
 

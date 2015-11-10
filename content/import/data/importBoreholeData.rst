@@ -2,8 +2,8 @@
 
 .. include:: <isonum.txt>
 
-Importing borehole data
-=======================
+Import borehole data
+====================
 
 Importing borehole data requires two or three files (survey optional and assumes vertical boreholes if not given) that will be asked for in a separate dialog. To get to the import dialog, use the main project menu: **Import** |rarr| **Borehole Data**
 

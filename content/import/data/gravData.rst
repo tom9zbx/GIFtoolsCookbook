@@ -2,8 +2,8 @@
 
 .. include:: <isonum.txt>
 
-Importing gravity data
-======================
+Import gravity data
+===================
 
 Use the main project menu: **Import** |rarr| **Data** |rarr| **Gravity**
 

@@ -2,8 +2,8 @@
 
 .. include:: <isonum.txt>
 
-Exporting data objects
-======================
+Export a data object
+====================
 
 GIFtools will allow the user to export any data object (in GIF format) at any time. The :ref:`i/o headers <setioHeaders>` will need to be set prior to exportation. 
 

@@ -2,8 +2,8 @@
 
 .. include:: <isonum.txt>
 
-Importing DC/IP 2D data
-=======================
+Import DC/IP 2D data
+====================
 
 Use the main project menu: **Import** |rarr| **DC/IP** |rarr| **2D**
 
@@ -12,7 +12,7 @@ Use the main project menu: **Import** |rarr| **DC/IP** |rarr| **2D**
     :width: 400
 
 
-**Note**: Importing from a CSV/XYZ file is found under **Import** |rarr| **DC/IP** and is independent of dimension in the menu
+**Note**: Importation from a CSV/XYZ file is found under **Import** |rarr| **DC/IP** and is independent of dimension in the menu
  
 File formats
 ------------

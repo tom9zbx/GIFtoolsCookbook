@@ -2,8 +2,8 @@
 
 .. include:: <isonum.txt>
 
-Importing magnetic data
-=======================
+Import magnetic data
+====================
 
 Use the main project menu: **Import** |rarr| **Data** |rarr| **Magnetics**
 

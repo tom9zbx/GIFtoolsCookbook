@@ -2,8 +2,8 @@
 
 .. include:: <isonum.txt>
 
-Exporting models
-================
+Export a model
+==============
 
 GIFtools will allow the user to export any model object at any time. 
 

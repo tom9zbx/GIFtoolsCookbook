@@ -2,8 +2,8 @@
 
 .. include:: <isonum.txt>
 
-Assigning uncertainties
-=======================
+Assign uncertainties
+====================
 
 Assigning uncertainties is vital to inversion and therefor is also required as an :ref:`i/o header<setioHeaders>`. To assign uncertainties to a data object, click on the object and select the menu **Data manipulation** |rarr| **Assign uncertainties**
 

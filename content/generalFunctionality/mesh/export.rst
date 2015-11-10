@@ -2,8 +2,8 @@
 
 .. include:: <isonum.txt>
 
-Exporting meshes
-================
+Export a mesh
+=============
 
 GIFtools will allow the user to export any mesh object at any time. Select mesh object then menu with the class of the object (e.g., **mesh3D**) |rarr| **Export** 
 

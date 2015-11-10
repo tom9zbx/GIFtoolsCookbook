@@ -2,8 +2,8 @@
 
 .. include:: <isonum.txt>
 
-Creating a constant model
-=========================
+Create a constant model
+=======================
 
 There are two ways to create a constant model object:
 

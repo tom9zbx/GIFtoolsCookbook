@@ -2,8 +2,8 @@
 
 .. include:: <isonum.txt>
 
-Importing FEM data
-==================
+Import FEM data
+===============
 
 To import Frequency-domain ElectroMagnetic (FEM) data, use the main project menu: **Import** |rarr| **Data** |rarr| **Frequency-domain EM**
 

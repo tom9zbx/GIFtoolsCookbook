@@ -2,8 +2,8 @@
 
 .. include:: <isonum.txt>
 
-Importing topography
-====================
+Import topography
+=================
 
 Use the main project menu: **Import** |rarr| **Topo**
 

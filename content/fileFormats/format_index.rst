@@ -13,6 +13,7 @@ Data
     CSVfile
     magfile
     gravfile
+    ggfile
     dcip2dObsfile
     dcip3dObsfile    
     collarfile

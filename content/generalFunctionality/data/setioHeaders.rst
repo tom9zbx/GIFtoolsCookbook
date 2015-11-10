@@ -2,8 +2,8 @@
 
 .. include:: <isonum.txt>
 
-Setting input/output data headers
-=================================
+Set input/output data headers
+=============================
 
 Input/output (i/o) data headers are important because it symbolized the data columns that will be exported to GIF inversion codes. If i/o headers are required, but not filled, they will appear in red in the information panel provided to the right of the data object when selected:
 

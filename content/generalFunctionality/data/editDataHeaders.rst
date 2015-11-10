@@ -2,8 +2,8 @@
 
 .. include:: <isonum.txt>
 
-Editing data headers
-====================
+Edit data headers
+=================
 
 Click on desired data object, the menu with its class name (e.g., **MAGdata** for magnetic data) |rarr| **Edit data headers**
 

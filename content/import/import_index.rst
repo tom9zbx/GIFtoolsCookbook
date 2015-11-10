@@ -11,6 +11,7 @@ Data
 
     Magnetic data <data/magData>
     Gravity data <data/gravData>
+    Gravity gradiometry data <data/ggData>
     Topography <data/importTopo>
     DC/IP (3D) <data/importDCIP3Ddata>
     DC/IP (2D) <data/importDCIP2Ddata>

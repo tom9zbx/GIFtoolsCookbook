@@ -2,8 +2,8 @@
 
 .. include:: <isonum.txt>
 
-Importing a 3D mesh
-===================
+Import a 3D mesh
+================
 
 Use the main project menu: **Import** |rarr| **Mesh** |rarr| **3D**
 
