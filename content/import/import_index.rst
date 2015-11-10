@@ -18,6 +18,7 @@ Data
     Borehole <data/importBoreholeData>
     Miscellaneous property data <data/importProp>
     Frequency-domain EM data <data/importFemData>
+    Time-domain EM data <data/importTemData>    
 
 
 Mesh

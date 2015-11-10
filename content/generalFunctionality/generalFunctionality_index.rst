@@ -23,7 +23,7 @@ Data
         Assign uncertainties <data/assignUncertainties>
         Perform a simple mathematical operation <data/constantCalculator>
         Perform column-to-column mathematical operation <data/columnCalculator>
-        Add Gassian noise <data/addNoise>
+        Add Gaussian noise <data/addNoise>
         Combine like objects <data/combineData>
         Delete data outside of a mesh <data/meshBasedRemoval>
         Calculate a polynomal trend <data/polyTrend>
@@ -97,6 +97,17 @@ Forward modelling
         Magnetics <forward/mag3d>
         DC/IP <forward/dcipFwd>
 
+    **General functionality:**
+
+    .. toctree::
+       :maxdepth: 1
+
+       Set the working directory <forward/setWorkDir>
+       Edit options <forward/editOptions>
+       Write files <forward/writeAll>
+       Run <forward/run>
+       Load results <forward/loadResults>
+       Copy the item <forward/copyOptions>
 
 Inversion
 ---------
