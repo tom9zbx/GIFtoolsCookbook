@@ -5,7 +5,7 @@
 Load forward modelling results
 ==============================
 
-Once the forward modelling has ran, the user can load the predicted data by clicking on the inversion item, selecting the menu showing its class (e.g., ``MAGforward``), and load predicted data:
+Once the forward modelling has run, the user can load the predicted data by clicking on the inversion item, selecting the menu showing its class (e.g., ``MAGforward``), and load predicted data:
 
 **[Forward class]** |rarr| **Load predicted data**
 

@@ -5,7 +5,7 @@
 View inversion results
 ======================
 
-GIFtools allows the user two different ways to view the output of the inversion. The methods are grouped under **Visualization** menu when clicking on the mesh item.
+GIFtools allows the user two different ways to view the output of the inversion. The methods are grouped under **Visualization** menu when clicking on the inversion item.
 
 .. figure:: ../../../images/invViewMenu.png
     :align: center
@@ -16,7 +16,7 @@ GIFtools allows the user two different ways to view the output of the inversion.
 Convergence curves
 ^^^^^^^^^^^^^^^^^^
 
-To view the convergence curves, click on the inverison item and the use the menu:
+To view the convergence curves, click on the inversion item and the use the menu:
 
 **Visualization** |rarr| **Convergence curves**
 

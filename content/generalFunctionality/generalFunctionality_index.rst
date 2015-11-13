@@ -3,8 +3,36 @@
 General functionality
 =====================
 
-All of the these functions can be accessed through the menus at the top after selecting the object in the GIFtools tree.
+All of the these functions can be accessed through the menus at the top after selecting the object in the GIFtools tree. The main categories presented here are:
 
+- :ref:`project`
+- :ref:`data`
+- :ref:`mesh`
+- :ref:`model`
+- :ref:`fwd`
+- :ref:`inv`  
+- :ref:`esrc`  
+- :ref:`util`
+
+.. _project:
+
+Project
+-------
+
+    .. toctree::
+        :maxdepth: 1
+    
+        Load <project/load>
+        Load a recent project <project/loadRecent>
+        Add an existing project <project/addProject>        
+        Save <project/save>
+        Set the working directory <project/setWorkDir>
+        Set the starting directory <project/setStartingDir>
+        Set the number of OpenMP threads <project/setOMPthreads>        
+        Find the version number <project/about>
+
+
+.. _data:
 
 Data
 ----
@@ -57,6 +85,7 @@ Data
         Extract time / frequency data <data/emTimeExtract>
         View / edit times or frequencies <data/emViewTime>
 
+.. _mesh:
 
 Mesh
 ----
@@ -69,6 +98,8 @@ Mesh
         mesh/refineOctree
         View in 3D <mesh/viewMesh>        
         Export <mesh/export>
+
+.. _model:
 
 Model
 -----
@@ -84,6 +115,8 @@ Model
         View in 3D, table format, or view statistics <model/viewModel>
         Export <model/export>
 
+
+.. _fwd:
 
 Forward modelling
 -----------------
@@ -108,6 +141,8 @@ Forward modelling
        Run <forward/run>
        Load results <forward/loadResults>
        Copy the item <forward/copyOptions>
+
+.. _inv:
 
 Inversion
 ---------
@@ -135,5 +170,56 @@ Inversion
        Load results <inversion/loadResults>
        View results <inversion/viewInversion>
        Copy the item <inversion/copyOptions>
+
+
+.. _esrc:
+
+Equivalent-source processing
+----------------------------
+
+    **Creating an object:**
+
+    .. toctree::
+        :maxdepth: 1
+
+        Gravity <esProcessing/grav3d>
+        Magnetics <esProcessing/mag3d>
+
+    **General functionality:**
+
+    .. toctree::
+       :maxdepth: 1
+
+       Set the working directory <esProcessing/setWorkDir>
+       Edit options <esProcessing/editOptions>
+       Write files <esProcessing/writeAll>
+       Run <esProcessing/run>
+       Load results <esProcessing/loadResults>
+       View results <esProcessing/viewInversion>
+       Copy the item <esProcessing/copyOptions>
+
+.. _util:
+
+Fortran utility programs
+------------------------
+
+    **Creating an object:**
+
+    .. toctree::
+        :maxdepth: 1
+
+        OcTree mesh for E3D <utilityCodes/e3doctreeMesh>
+        OcTree mesh for OCTMAGDE <utilityCodes/magoctreeMesh>
+        Interpolate a 3D model onto another mesh <utilityCodes/interpolateModel>        
+
+    **General functionality:**
+
+    .. toctree::
+       :maxdepth: 1
+
+       Set the working directory <utilityCodes/setWorkDir>
+       Edit options <utilityCodes/editOptions>
+       Run <utilityCodes/run>
+       Load results <utilityCodes/loadResults>
 
 
