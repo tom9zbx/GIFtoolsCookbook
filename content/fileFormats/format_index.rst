@@ -23,6 +23,8 @@ Data
     femfile
     temfile
     emTransmittersfile
+    e3dmtfile
+    mtz3dfile
 
 Topography
 ^^^^^^^^^^
