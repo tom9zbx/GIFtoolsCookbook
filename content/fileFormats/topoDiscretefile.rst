@@ -10,9 +10,9 @@ This file is used specifically with DCIP3D to define the surface topography with
 
 Parameter definitions:
 
-- NN: Number of cells in the north ($NN$ from the mesh)
+- NN: Number of cells in the north (\\(NN\\) from the mesh)
 
-- NE: Number of cells in the north ($NE$ from the mesh)
+- NE: Number of cells in the north (\\(NE\\) from the mesh)
 
 - :math:`i_n`: :math:`n^{th}` cell in the easting direction, starting with the west-most cells = 1
 
@@ -20,7 +20,7 @@ Parameter definitions:
 
 - :math:`k[i_n,j_m]`: Number of cells from top of the mesh to the topography
 
-The lines in this file can be in any order as long as the total number is equal to //(NE \\times NN //). There are no comments allowed in this file. The value of //(k[i,j]//) indicates the number of cells above the earth's surface. If the topography reached the top row of cells in the vertical direction, then //(k[i,j] = 0//). If all values of //(k//) are zero, the topography would be at the very top of the mesh (i.e., the situation where no topography is given).
+The lines in this file can be in any order as long as the total number is equal to \\(NE \\times NN \\). There are no comments allowed in this file. The value of \\(k[i,j]\\) indicates the number of cells above the earth's surface. If the topography reached the top row of cells in the vertical direction, then \\(k[i,j] = 0\\). If all values of \\(k\\) are zero, the topography would be at the very top of the mesh (i.e., the situation where no topography is given).
 
 
 Example:
@@ -33,5 +33,5 @@ The following is an example of a discrete topography file:
 
 
 
-In this example the topography at //((1,2)//) is *higher* than at //( (2,2) //) by one cell thickness. The mesh consists of 30 cells in the easting, 40 cells in the northing, and at least 7 cells in the vertical direction. If the topography is above the mesh, then //(k=0//).
+In this example the topography at \\((1,2)\\) is *higher* than at \\( (2,2) \\) by one cell thickness. The mesh consists of 30 cells in the easting, 40 cells in the northing, and at least 7 cells in the vertical direction. If the topography is above the mesh, then \\(k=0\\).
 
