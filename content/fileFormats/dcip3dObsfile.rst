@@ -13,7 +13,7 @@ General format
 
 A mixture of different configurationsat any electrode location and configuration can be present in the data file. This is accomplished by specifying the locations of four electrodes for each datum. Whenever the two current electrodes, or two potential electrodes, are given the identical location, that particular pair is considered to be a single pole with the negative electrode being at infinity. It should be noted that if this format is used and topography is desired, then **the topography format used must be** :ref:`topoDiscretefile`. The format consists of a line with the current electrode location and number of potential electrode locations associated with it. An example of the format file structure is below.
 
-.. figure:: ../../images/dcip2dGeneralFile.png
+.. figure:: ../../images/dcip3dGeneralFile.png
    :align: center
 
 
