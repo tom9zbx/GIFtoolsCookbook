@@ -34,43 +34,43 @@ Parameter definitions:
 
   - :math:`Ex`: Electric-field component in the Easting direction.
 
-  - :math:`Ex_{stn}`: Standard deviation of the electric-field component in the Easting direction. This must be a postive, non-zero number.
+  - :math:`Ex_{stn}`: Standard deviation of the electric-field component in the Easting direction. This must be a positive, non-zero number.
 
   - :math:`Ey`: Electric-field component in the Northing direction.
 
-  - :math:`Ey_{stn}`: Standard deviation of the electric-field component in the Northing direction. This must be a postive, non-zero number.
+  - :math:`Ey_{stn}`: Standard deviation of the electric-field component in the Northing direction. This must be a positive, non-zero number.
 
   - :math:`Ez`: Vertical component of the electric-field.
 
-  - :math:`Ez_{stn}`: Standard deviation of the vertical component of the electric-field. This must be a postive, non-zero number.
+  - :math:`Ez_{stn}`: Standard deviation of the vertical component of the electric-field. This must be a positive, non-zero number.
 
 - ``Hdata``: 6 columns containing magnetic-field data aligning with the cartesian coordinate system and their uncertainties \\(j^{th}\\) receiver at the \\(k^{th}\\) time for the \\(i^{th}\\) transmitter (in order):
 
   - :math:`Hx`: Magnetic-field component in the Easting direction.
 
-  - :math:`Hx_{stn}`: Standard deviation of the magnetic-field component in the Easting direction. This must be a postive, non-zero number.
+  - :math:`Hx_{stn}`: Standard deviation of the magnetic-field component in the Easting direction. This must be a positive, non-zero number.
 
   - :math:`Hy`: Magnetic-field component in the Northing direction.
 
-  - :math:`Hy_{stn}`: Standard deviation of the magnetic-field component in the Northing direction. This must be a postive, non-zero number.
+  - :math:`Hy_{stn}`: Standard deviation of the magnetic-field component in the Northing direction. This must be a positive, non-zero number.
 
   - :math:`Hz`: Vertical component of the magnetic-field.
 
-  - :math:`Hz{stn}`: Standard deviation of the vertical component of the magnetic-field. This must be a postive, non-zero number.
+  - :math:`Hz{stn}`: Standard deviation of the vertical component of the magnetic-field. This must be a positive, non-zero number.
 
 - ``dBdTdata``: 6 columns containing :math:`\partial B / \partial t` data aligning with the cartesian coordinate system and their uncertainties \\(j^{th}\\) receiver at the \\(k^{th}\\) time for the \\(i^{th}\\) transmitter (in order):
 
   - :math:`\partial B / \partial t_x`: Derivative the B-field in the Easting direction.
 
-  - :math:`\partial B / \partial t_x^{stn}`: Standard deviation of the derivative the B-field in the Easting direction. This must be a postive, non-zero number.
+  - :math:`\partial B / \partial t_x^{stn}`: Standard deviation of the derivative the B-field in the Easting direction. This must be a positive, non-zero number.
 
   - :math:`\partial B / \partial t_y`: Derivative the B-field in the Northing direction.
 
-  - :math:`\partial B / \partial t_y^{stn}`: Standard deviation of the derivative the B-field in the Northing direction. This must be a postive, non-zero number.
+  - :math:`\partial B / \partial t_y^{stn}`: Standard deviation of the derivative the B-field in the Northing direction. This must be a positive, non-zero number.
 
   - :math:`\partial B / \partial t_z`: Vertical component of the derivative the B-field.
 
-  - :math:`\partial B / \partial t_z^{stn}`: Standard deviation of the vertical component of the derivative the B-field. This must be a postive, non-zero number.
+  - :math:`\partial B / \partial t_z^{stn}`: Standard deviation of the vertical component of the derivative the B-field. This must be a positive, non-zero number.
 
 
 Examples

@@ -32,52 +32,53 @@ Parameter definitions:
 
   - :math:`Ex^r`: Real part of the electric-field component in the Easting direction.
 
-  - :math:`Ex^r_{stn}`: Standard deviation of the real part of the electric-field component in the Easting direction.
+  - :math:`Ex^r_{stn}`: Standard deviation of the real part of the electric-field component in the Easting direction. This must be a positive, non-zero number.
+
   - :math:`Ex^i`: Imaginary part of the electric-field component in the Easting direction.
 
-  - :math:`Ex^i_{stn}`: Standard deviation of the imaginary part of the electric-field component in the Easting direction.
+  - :math:`Ex^i_{stn}`: Standard deviation of the imaginary part of the electric-field component in the Easting direction. This must be a positive, non-zero number.
 
   - :math:`Ey^r`: Real part of the electric-field component in the Northing direction.
 
-  - :math:`Ey^r_{stn}`: Standard deviation of the real part of the electric-field component in the Northing direction. This must be a postive, non-zero number.
+  - :math:`Ey^r_{stn}`: Standard deviation of the real part of the electric-field component in the Northing direction. This must be a positive, non-zero number.
 
   - :math:`Ey^i`: Imaginary part of the electric-field component in the Northing direction.
 
-  - :math:`Ey^i_{stn}`: Standard deviation of the imaginary part of the electric-field component in the Northing direction. This must be a postive, non-zero number.
+  - :math:`Ey^i_{stn}`: Standard deviation of the imaginary part of the electric-field component in the Northing direction. This must be a positive, non-zero number.
 
   - :math:`Ez^r`: Real part of the vertical electric-field component.
 
-  - :math:`Ez^r_{stn}`: Standard deviation of the real part of the vertical electric-field component. This must be a postive, non-zero number.
+  - :math:`Ez^r_{stn}`: Standard deviation of the real part of the vertical electric-field component. This must be a positive, non-zero number.
 
   - :math:`Ez^i`: Imaginary part of the vertical electric-field component.
 
-  - :math:`Ez^i_{stn}`: Standard deviation of the vertical electric-field component. This must be a postive, non-zero number.
+  - :math:`Ez^i_{stn}`: Standard deviation of the imaginary part of the vertical electric-field component. This must be a positive, non-zero number.
 
 - ``Hdata``: 12 columns containing magnetic-field data and their uncertainties of the \\(k^{th}\\) receiver at the  \\(j^{th}\\) frequency for the \\(i^{th}\\) transmitter (in order):
 
   - :math:`Hx^r`: Real part of the magnetic-field component in the Easting direction.
 
-  - :math:`Hx^r_{stn}`: Standard deviation of the real part of the magnetic-field component in the Easting direction. This must be a postive, non-zero number.
+  - :math:`Hx^r_{stn}`: Standard deviation of the real part of the magnetic-field component in the Easting direction. This must be a positive, non-zero number.
 
   - :math:`Hx^i`: Imaginary part of the magnetic-field component in the Easting direction.
 
-  - :math:`Hx^i_{stn}`: Standard deviation of the imaginary part of the magnetic-field component in the Easting direction. This must be a postive, non-zero number.
+  - :math:`Hx^i_{stn}`: Standard deviation of the imaginary part of the magnetic-field component in the Easting direction. This must be a positive, non-zero number.
 
   - :math:`Hy^r`: Real part of the magnetic-field component in the Northing direction.
 
-  - :math:`Hy^r_{stn}`: Standard deviation of the real part of the magnetic-field component in the Northing direction. This must be a postive, non-zero number.
+  - :math:`Hy^r_{stn}`: Standard deviation of the real part of the magnetic-field component in the Northing direction. This must be a positive, non-zero number.
 
   - :math:`Hy^i`: Imaginary part of the magnetic-field component in the Northing direction.
 
-  - :math:`Hy^i_{stn}`: Standard deviation of the imaginary part of the magnetic-field component in the Northing direction. This must be a postive, non-zero number.
+  - :math:`Hy^i_{stn}`: Standard deviation of the imaginary part of the magnetic-field component in the Northing direction. This must be a positive, non-zero number.
 
   - :math:`Hz^r`: Real part of the vertical magnetic-field component.
 
-  - :math:`Hz^r_{stn}`: Standard deviation of the real part of the vertical magnetic-field component. This must be a postive, non-zero number.
+  - :math:`Hz^r_{stn}`: Standard deviation of the real part of the vertical magnetic-field component. This must be a positive, non-zero number.
 
   - :math:`Hz^i`: Imaginary part of the vertical magnetic-field component.
 
-  - :math:`Hz^i_{stn}`: Standard deviation of the vertical magnetic-field component. This must be a postive, non-zero number.
+  - :math:`Hz^i_{stn}`: Standard deviation of the imaginary part of the vertical magnetic-field component. This must be a positive, non-zero number.
 
 
 **NOTE**: Each ``FREQUENCY`` flag must be preceded by the transmitter definition, *regardless of whether it is the same as the previous transmitter*. See the DIGHEM example below. 
