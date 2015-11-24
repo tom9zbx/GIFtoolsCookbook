@@ -1,7 +1,7 @@
 .. _format_index:
 
 
-File Formats
+File formats
 ============
 
 Data
