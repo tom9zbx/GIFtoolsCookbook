@@ -10,5 +10,6 @@ GIFtools Site map
     Quick-start guide <content/quickStartGuide>
     content/import/import_index
     content/generalFunctionality/generalFunctionality_index    
+    content/recipes/recipe_index
     content/fileFormats/format_index
     System requirements <content/systemReq>
