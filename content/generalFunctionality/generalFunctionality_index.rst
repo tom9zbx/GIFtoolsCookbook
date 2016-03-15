@@ -77,7 +77,7 @@ Data
 
         Add topography to locations <data/applyTopo>
         Apparent resitivity to/from normalized voltage <data/dcipGeoFactor>
-
+        Project DC/IP 3D data onto a 2D lines for DCIP2D inversion <data/dcip3Dto2D>
 
     **EM:**
 
@@ -154,7 +154,8 @@ Inversion
 
     .. toctree::
         :maxdepth: 1
-
+        
+        Through a workflow <inversion/inversionWorkflow>
         Gravity <inversion/grav3d>
         Magnetics <inversion/mag3d>
         DC/IP <inversion/dcipInv>        

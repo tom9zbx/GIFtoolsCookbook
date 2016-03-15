@@ -3,8 +3,12 @@
 Recipes
 =======
 
-.. .. toctree::
-..    :maxdepth: 1
-..
+.. toctree::
+   :maxdepth: 1
+
+    Use a geologic map in an inversion <imageToInversion>
+
+..   Project DC/IP 3D data onto a 2D lines for DCIP2D inversion <dcip3Dto2D>
+
 ..    Create a modelBuilder module <createModelBuilder>
 
