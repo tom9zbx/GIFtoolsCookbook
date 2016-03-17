@@ -7,7 +7,7 @@ Use a geologic image in an inversion
 
 GIFtools can import a geologic image and convert it to a geology model. This allows one to set bounds, weights, and a physical property based on the geology ID. This is particularly useful for inversion of multiple data types in the same area. Below are the steps to use a geologic image in an inversion.
 
-**NOTE:** In future releases of GIFtools, this functionality will be streamlined in a :ref:`inversion workflow <createInversionWorkflow>`. However, if the user has the image loaded and a :ref:`modelBuilder module <createModelBuilder>`
+**NOTE:** In future releases of GIFtools, this functionality will be streamlined in a :ref:`inversion workflow <createInversionWorkflow>`. For now, an image and :ref:`modelBuilder module <createModelBuilder>` is required. Below are details of the step required to create reference models, bounds, etc from an image.
 
 1. :ref:`Import a geologic image <importImage>`. The image should have solid colours indicating geologic zones (see below for example). The algorithms developed in GIFtools will struggle if annotations are included in the image.
 
@@ -25,6 +25,12 @@ GIFtools can import a geologic image and convert it to a geology model. This all
    **Create** |rarr| **Model** |rarr| **From map image**
 
 .. figure:: ../../images/createImageModel.png
+    :align: center
+    :width: 400
+
+Here is the image now discretized on a mesh
+
+.. figure:: ../../images/imageModelEx.png
     :align: center
     :width: 400
 
