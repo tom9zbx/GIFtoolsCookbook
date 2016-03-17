@@ -20,7 +20,7 @@ GIFtools can import a geologic image and convert it to a geology model. This all
 
 3. :ref:`Create <createModelBuilder>` or open modelBuilder module (click on modelBuilder item and use the menu **Model Builder** |rarr| **Show Builder**).
 
-4. Within the modelbuilder module use the menu below. Create model (geology or physical property) using the dialog.
+4. Within the modelbuilder module use the menu below. Create a geology model using the dialog found through the menu:
 
    **Create** |rarr| **Model** |rarr| **From map image**
 
