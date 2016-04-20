@@ -10,9 +10,11 @@ All of the these functions can be accessed through the menus at the top after se
 - :ref:`mesh`
 - :ref:`model`
 - :ref:`fwd`
-- :ref:`inv`  
-- :ref:`esrc`  
+- :ref:`inv`
+- :ref:`mb`
+- :ref:`esrc`
 - :ref:`util`
+
 
 .. _project:
 
@@ -75,7 +77,7 @@ Data
 
         Add topography to locations <data/applyTopo>
         Apparent resitivity to/from normalized voltage <data/dcipGeoFactor>
-
+        Project DC/IP 3D data onto a 2D lines for DCIP2D inversion <data/dcip3Dto2D>
 
     **EM:**
 
@@ -108,6 +110,7 @@ Model
         :maxdepth: 1
 
         mesh/createConstantModel
+        model/createActiveCells
         Set unit name <model/setUnit>
         Perform a simple mathematical operation <model/modelCalculator>
         Add polyhedra from property data <model/addPolyBlock>
@@ -151,7 +154,8 @@ Inversion
 
     .. toctree::
         :maxdepth: 1
-
+        
+        Through a workflow <inversion/inversionWorkflow>
         Gravity <inversion/grav3d>
         Magnetics <inversion/mag3d>
         DC/IP <inversion/dcipInv>        
@@ -172,6 +176,18 @@ Inversion
        Copy the item <inversion/copyOptions>
 
 
+.. _mb:
+
+ModelBuilder module
+-------------------
+
+ .. toctree::
+        :maxdepth: 1
+
+        Create modelBuilder <modelBuilder/createModelBuilder>
+
+
+       
 .. _esrc:
 
 Equivalent-source processing

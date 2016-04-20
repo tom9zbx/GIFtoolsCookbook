@@ -20,6 +20,7 @@ Data
     Frequency-domain EM data <data/importFemData>
     Time-domain EM data <data/importTemData>    
     ZTEM or MT data <data/importNSEMData>
+    Geologic images <data/importImage>
 
 Mesh
 ----
