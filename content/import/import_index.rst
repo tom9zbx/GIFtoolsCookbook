@@ -21,6 +21,7 @@ Data
     Time-domain EM data <data/importTemData>    
     ZTEM or MT data <data/importNSEMData>
     Geologic images <data/importImage>
+    Surface  <data/importSurface>
 
 Mesh
 ----

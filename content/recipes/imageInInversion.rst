@@ -1,4 +1,4 @@
-.. _imageToInversion:
+.. _imageInInversion:
 
 .. include:: <isonum.txt>
 
@@ -7,7 +7,7 @@ Use a geologic image in an inversion
 
 GIFtools can import a geologic image and convert it to a geology model. This allows one to set bounds, weights, and a physical property based on the geology ID. This is particularly useful for inversion of multiple data types in the same area. Below are the steps to use a geologic image in an inversion.
 
-**NOTE:** In future releases of GIFtools, this functionality will be streamlined in a :ref:`inversion workflow <createInversionWorkflow>`. For now, an image and :ref:`modelBuilder module <createModelBuilder>` is required. Below are details of the step required to create reference models, bounds, etc from an image.
+**NOTE:** In future releases of GIFtools, this functionality will be streamlined in a :ref:`inversion workflow <createInversionWorkflow>`. For now, an image and :ref:`modelBuilder module <createModelBuilder>` are required. Below are details of the step required to create reference models, bounds, etc from an image.
 
 1. :ref:`Import a geologic image <importImage>`. The image should have solid colours indicating geologic zones (see below for example). The algorithms developed in GIFtools will struggle if annotations are included in the image.
 
@@ -18,7 +18,7 @@ GIFtools can import a geologic image and convert it to a geology model. This all
 
 2. If the legend file was not imported with the mesh, either :ref:`import or create <legendFile>` the image legend through the image menu. This file gives the ID and its corresponding colour code (RGB).
 
-3. :ref:`Create <createModelBuilder>` or open modelBuilder module (click on modelBuilder item and use the menu **Model Builder** |rarr| **Show Builder**).
+3. :ref:`Create <createModelBuilder>` or use an already existing modelBuilder module (make sure it is on a mesh with the same dimensions as in the inversion).
 
 4. Within the modelbuilder module use the menu below. Create a geology model using the dialog found through the menu:
 
@@ -43,7 +43,7 @@ Here is the image now discretized on a mesh
 
          **Geology definition** |rarr| **Set i/o headers** 
 
-   - Use the modelBuilder module **Build** menu and build the models desired for the inversion (e.g., **Build** |rarr| **Reference model**). Add the geology model from the image to the list of models to use for creation.
+   - Use the modelBuilder module **Build constraints** menu and build the models desired for the inversion (e.g., **Build constraints** |rarr| **Reference model**). Add the geology model from the image to the list of models to use for creation.
 
 6. Once the models are built, they can be used in the inversion by selecting the inversion item and :ref:`editing its options <invEditOptions>`. Select the models made from the build within modelBuilder with the option on how it should be used (i.e., reference model, initial model, bounds, weights).
 
