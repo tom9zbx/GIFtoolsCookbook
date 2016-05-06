@@ -28,6 +28,7 @@ Project
         Load a recent project <project/loadRecent>
         Add an existing project <project/addProject>        
         Save <project/save>
+        Auto-save functionality <project/autoSave>
         Set the working directory <project/setWorkDir>
         Set the starting directory <project/setStartingDir>
         Set the number of OpenMP threads <project/setOMPthreads>        
