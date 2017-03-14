@@ -18,12 +18,11 @@ Prerequisites
 -------------
 Import a mesh:
 
-.. toctree::
-   :maxdepth: 1
+- :ref:`2D mesh <importMesh2D>`
 
-   2D mesh <../mesh/importMesh2D>
-   3D mesh <../mesh/importMesh3D>    
-   OcTree mesh <../mesh/importMeshOctree>
+- :ref:`3D mesh <importMesh3D>`
+
+- :ref:`OcTree mesh <importMeshOctree>`
 
 
 File formats

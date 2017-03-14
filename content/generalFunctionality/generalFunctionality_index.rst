@@ -110,7 +110,6 @@ Model
     .. toctree::
         :maxdepth: 1
 
-        mesh/createConstantModel
         model/createActiveCells
         Set unit name <model/setUnit>
         Perform a simple mathematical operation <model/modelCalculator>

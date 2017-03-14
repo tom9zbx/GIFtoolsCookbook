@@ -13,3 +13,4 @@ GIFtools Site map
     content/recipes/recipe_index
     content/fileFormats/format_index
     System requirements <content/systemReq>
+    content/videoTutorials

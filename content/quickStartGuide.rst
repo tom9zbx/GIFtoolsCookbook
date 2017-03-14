@@ -111,6 +111,13 @@ The next four subsections will discribe the main components of GIFtools pointed 
     :align: center
     :width: 400
 
+The following video also introduces the look and feel of GIFtools:
+
+.. raw:: html
+
+        <div style="margin-top:10px; margin-bottom:20px;" align="center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Kqm0TyNJ-vQ" frameborder="0" allowfullscreen></iframe>
+        </div>
 
 
 Menus
