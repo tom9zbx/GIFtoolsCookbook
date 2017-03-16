@@ -52,6 +52,11 @@ project = u'GIFtoolsCookbook'
 copyright = u'2015-2017, UBC-GIF'
 author = u'UBC-GIF'
 
+# Ignored links
+linkcheck_ignore = ['https://gif.eos.ubc.ca/GIFtools/downloads']
+linkcheck_retries = 3
+linkcheck_timeout = 500
+
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
