@@ -23,7 +23,7 @@ Project
 
     .. toctree::
         :maxdepth: 1
-    
+        
         Load <project/load>
         Load a recent project <project/loadRecent>
         Add an existing project <project/addProject>        
