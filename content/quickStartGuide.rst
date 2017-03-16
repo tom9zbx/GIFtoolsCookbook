@@ -15,7 +15,7 @@ In this section, you will find:
 Installation of GIFtools
 ------------------------
 
-To install GIFtools, you will need to go the the website and download the latest installation executable (`Log-in required <http://gif.eos.ubc.ca/GIFtools/downloads>`_). The two available are either ``GIFtools_vXpX_install`` or ``GIFtools_vXpX_offlineInstall``. The only difference is that the off-line install is much bigger to ensure that the Matlab run-time environment that is needed is accessible if not already installed. The former installation executable will use the internet to call Matlab to check on the environment and download if necessary. Either way, **you will need administrator privileges**. Once downloaded here are the 7 steps to follow:
+To install GIFtools, you will need to go the the website and download the latest installation executable (`Log-in required <https://gif.eos.ubc.ca/GIFtools/downloads>`_). The two available are either ``GIFtools_vXpX_install`` or ``GIFtools_vXpX_offlineInstall``. The only difference is that the off-line install is much bigger to ensure that the Matlab run-time environment that is needed is accessible if not already installed. The former installation executable will use the internet to call Matlab to check on the environment and download if necessary. Either way, **you will need administrator privileges**. Once downloaded here are the 7 steps to follow:
 
 
 1. Double click on executable, which will lead you to this screen (you can trust us...):
