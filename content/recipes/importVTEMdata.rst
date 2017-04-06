@@ -32,17 +32,17 @@ Click on the "Step 1" button. The following GUI will pop up.
 
 Choose the appropriate headers from the drop-down menus for Easting, Northing, and Elevation. For our example, this is X, Y, and DEM. 
 
-Next, add in the time channel information. This can be done manually by adding clicking the plus or minus buttons to increase or decrease the number of time channels. Then the time can be entered in the second column. Alternatively, you can load a text file that contains the time channels, as shown below.
+Next, add in the time channel information. This can be done in two ways: (1) Manually add the time channel information by clicking the plus or minus buttons to increase or decrease the number of time channels. Then the time can be entered in the second column. (2) Alternatively, you can load a text file that contains the time channels, as shown below.
 
 .. figure:: ../../images/importTEMdata/channelfile.png
         :figwidth: 30%
         :align: center
 
-To load in a file with the time channels, click "Select text file" and select the desired file. The GUI will update with the number of times and the time channels. In the case of our example, there are 45 time chanels, ranging from 0.021 to 10.667 ms. 
+To load in a file with the time channels, click "Load text file" and select the desired file. The GUI will update with the number of times and the time channels. In the case of our example, there are 45 time chanels, ranging from 0.021 to 10.667 ms. 
 
 **Note**: these units will have to be changed before inversion of the data, but this can easily be done using the **Data manipulation** menu once the data is loaded into GIFtools. 
 
-The final step is to select the number of data groups. For this example, there are 2. Click the plus or minus buttons to increase or decrease the desired number of data groups.
+The final step is to select the number of data groups. For this example, there are 2: the vertical components of the time derivative of the magnetic field (dB/dt) and the magnetic field (B), denoted as SFz and BFz, respectively, in the headers of the csv file. Click the plus or minus buttons to increase or decrease the desired number of data groups.
 
 **Note**: The data groups have to have to same number of time channels and the same time gates.
 
@@ -65,13 +65,13 @@ With Step 1 complete, the GUI shows the number of data types selected. For our e
 
 Here, you can change the header name for this data group from "Data type 1" to your desired name. For our example, we've chosen "SFz". There are 2 ways to assign the header for each time channel:
 
-#. Click on the empty cell below "Header" and a drop-down menu will appear. Select the desired header name. Repeat for each time channel. For our example, the first header is "SFz[4]", as shown below:
+1. Click on the empty cell below "Header" and a drop-down menu will appear. Select the desired header name. Repeat for each time channel. For our example, the first header is "SFz[4]", as shown below:
 
 .. figure:: ../../images/importTEMdata/loadStep2_1.png
         :align: center
         :figwidth: 50%
 
-#. The faster method is click the "Load headers" button and select a file containing all the headers. The file format for the headers is shown below for our example's two data groups. The headers in these files are SFz[4]-SFz[48] and BFz[4]-BFz[48]. This automatically fills in the header column, as shown in the second figure below.
+2. The faster method is click the "Load headers" button and select a file containing all the headers. The file format for the headers is shown below for our example's two data groups. The headers in these files are SFz[4]-SFz[48] and BFz[4]-BFz[48]. This automatically fills in the header column, as shown in the second figure below.
 
 .. figure:: ../../images/importTEMdata/loadStep2_2.png
         :align: center
@@ -112,6 +112,8 @@ After the data has been loaded, the TEMdata object will appear in the GIFtools G
 
 Additional notes and tips
 -------------------------
+
+**Tip**: The TEM data is now loaded into GIFtools but the transmitter information has not been added. See the recipe for :ref:`adding transmitters to TEM data <addTxToTEMdata>`
 
 **Tip**: if any figures are too small to read, right-click and open the image in a new tab!
 
