@@ -21,6 +21,7 @@ FEM data can be imported in from three main file types:
     - :ref:`XYZ format <XYZfile>`
     - :ref:`CSV format <CSVfile>`
 
+**NOTE**: For detailed instructions on how to import TEM data from a csv or xyz file, follow the instructions in :ref:`this recipe <importVTEMdata>`.
 
 **NOTE**: XYZ and CSV file formats do not include transmitters, which will need to be imported separately.
 

@@ -21,3 +21,6 @@ Welcome to the GIFtools cookbook! Below you will find the quick-start guide to h
     Site map <sitemap>
 
 
+.. tip:: Try using the search bar to quickly find what you are looking for!
+
+
