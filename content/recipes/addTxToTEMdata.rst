@@ -17,7 +17,7 @@ After a :ref:`time-domain EM data from a csv or xyz file <importVTEMdata>` has b
 
 To add transmitters to a TEM data object, use the menus: **TEM data** |rarr| **Add transmitters** and select the desired method.
 
-.. figure:: ../../images/addTxToTEMdata/menu.PNG
+.. figure:: ../../images/addTxtoTEMdata/menu.PNG
         :align: center
         :figwidth: 75%
 
