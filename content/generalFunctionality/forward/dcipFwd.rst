@@ -30,7 +30,7 @@ Alternatively, for IP data, select **IP3Dforward** |rarr| **Edit options**, whic
         :align: center
         :figwidth: 50%
 
-For more information about each input, please refer to the `DCIP3D manual <https://gif.eos.ubc.ca/GIFtools/documentation>`__.
+For more information about each input, please refer to the `DCIP3D manual <https://gif.eos.ubc.ca/documentation>`__.
 
 Octree mesh
 -----------
