@@ -5,6 +5,8 @@
 Add transmitter information to a TEM data object
 ================================================
 
+.. warning:: This page is under construction!
+
 After a :ref:`time-domain EM data from a csv or xyz file <importVTEMdata>` has been imported into GIFtools, the transmitter information is still missing in the TEMdata object. This recipe steps through adding in the transmitter information in three different ways:
 
 #. Loading a file
