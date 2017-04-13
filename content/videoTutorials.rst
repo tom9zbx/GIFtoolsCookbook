@@ -134,6 +134,8 @@ In this section, we summarize the general functionality associated with each dat
 - Output files for forward modelling using TDoctree
 - Set up input file and output files for use with TDoctree inversion
 - Load output files (predicted data, recovered models, and inversion diagnostics) from TDoctree
+- Add AEM coincident loop sources: `YouTube <https://youtu.be/h9Vd-YPmuvY>`__, `download <http://www.eos.ubc.ca/~kdavis/giftoolsdocs/addCoincidentLoop.wmv>`__ (10 MB)
+- Add AEM offset loop sources: `YouTube <https://youtu.be/Z0Aikqpnt2o>`__, `download <http://www.eos.ubc.ca/~kdavis/giftoolsdocs/addOffsetLoopSources.wmv>`__ (15 MB)
 
 .. _VTmtdata:
 
