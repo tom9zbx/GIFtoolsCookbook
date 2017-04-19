@@ -195,7 +195,7 @@ In this section, we summarize the general functionality associated with each typ
 **Three-dimensional tensor mesh (mesh3D)**
 
 - I/O and view 3D tensor meshes (for use with 3D codes): `YouTube <https://youtu.be/y0oIlPu_4Pw>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/ioMesh3d.wmv>`__ (9.8 MB)
-- Create meshes internatlly with GIFtools for potential-field data: see :ref:`general <VToverview>` functionality
+- Create meshes internally with GIFtools for potential-field data: see :ref:`general <VToverview>` functionality
 - Create ocTree meshes from tensor meshes (and interpolate the model)
 
 .. _VTocmesh:
@@ -224,7 +224,7 @@ In this section, we summarize the general functionality associated with each typ
 - Use a simple calculator to convert between units and change the unit description: see :ref:`general <VToverview>` functionality
 - Create active cell models from topography data (TOPOdata): `YouTube <https://youtu.be/rJFbWIBp6mE>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/activeCellTopo.wmv>`__ (16 MB)
 - Create active cell models from locations to choose where cells should be inactive
-- Create simple constant-valuye models: `YouTube <https://youtu.be/Jnl6_SKRFQ0>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/createConstantModel.wmv>`__ (4.7 MB)
+- Create simple constant-value models: `YouTube <https://youtu.be/Jnl6_SKRFQ0>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/createConstantModel.wmv>`__ (4.7 MB)
 - Format allows for multiple models to be exported into bound file(s) for inversion (through GIFinversion objects)
 
 .. _VTfcmodel:
