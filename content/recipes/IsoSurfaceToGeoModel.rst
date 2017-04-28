@@ -24,13 +24,13 @@ For this example, there will be a single isosurface at 0.002 SI. This means this
 
 To create a geology model, we need to :ref:`create a ModelBuilder module <createModelBuilder>`. In this example, we generate an active model from the susceptibility model: **Model** |rarr| **Create** |rarr| **Active topography model from air values**
 
-.. figure:: ../../images/IsoToGEoMod/activemodel.png
+.. figure:: ../../images/IsoToGeoMod/activemodel.png
 	:align: center
 	:figwidth: 100%
 
 GIFtools will ask for the value of the air cells in the selected model, which here is -100. A tolerance is also requested.
 
-.. figure:: ../../images/IsoToGEoMod/replacevalue.png
+.. figure:: ../../images/IsoToGeoMod/replacevalue.png
 	:align: center
 	:figwidth: 75%
 
@@ -38,7 +38,7 @@ An active model can be generated in other ways too. For more information about c
 
 The figure below shows the active model, with values of 1 for active cells (below topography) and 0 for inactive cells (above topography).
 
-.. figure:: ../../images/IsoToGEoMod/activemodel2.png
+.. figure:: ../../images/IsoToGeoMod/activemodel2.png
 	:align: center
 	:figwidth: 75%
 
