@@ -13,7 +13,7 @@ In this recipe, the example uses a 3D mesh and a susceptibility model. :ref:`Imp
 
 :ref:`View the model <viewModel>` and decide what the physical property values are for the isosurfaces(s). The figure below shows the example model used in this recipe.
 
-.. figure:: ../../images/IsoToGEoMod/model.png
+.. figure:: ../../images/IsoToGeoMod/model.png
 	:align: center
 	:figwidth: 75%
 
