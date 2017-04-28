@@ -26,7 +26,7 @@ To install GIFtools, you will need to go the the website and download the latest
 
 
 
-If you use a proxy server *and* you are using the `GIFtools_vXpX_install.exe`, you will need to click on the **Connection Settings** button and put the server name and port along with a user ID and password to access the internet. 
+If you use a proxy server *and* you are using the `GIFtools_vXpX_install.exe`, you will need to click on the **Connection Settings** button and put the server name and port along with a user ID and password to access the internet.
 
 2. Click **Next** and choose the installation directory for GIFtools. This does *not* necessarily need to be in ``C:\Program Files\GIF``! If you have created another folder somewhere on your computer, you may install GIFtools there (e.g., ``D:\GIFtools\``)
 
@@ -104,7 +104,7 @@ Installation notes
 Navigating GIFtools
 -------------------
 
-The next four subsections will discribe the main components of GIFtools pointed out below:
+The next four subsections will describe the main components of GIFtools pointed out below:
 
 
 .. figure:: ../images/giftoolsLookAndFeel.png
