@@ -90,7 +90,31 @@ Click OK to set the group values. A new GEOmodel will appear in the Model Builde
 	:align: center
 	:figwidth: 100%
 
+.. note:: The number of units in the new GEOmodel is 3! How come? We had only defined 2 groups. If the model is now viewed, there are indeed 3 units. Unit 1 is the background (less than 0.002 SI), unit 2 is the anomaly (greater than 0.002 SI), and unit 0 are the cells above the topography (air cells).
 
+The geologic model contains three units (1 = background, 2 = anomaly, and 0 = air). The boundary between units 1 and 2 occurs where the susceptibility model was 0.002 SI. The following figures show a cross-section and plan view through the geologic model.
+
+.. figure:: ../../images/IsoToGeoMod/createmodel7.png
+	:align: center
+	:figwidth: 75%
+
+.. figure:: ../../images/IsoToGeoMod/createmodel8.png
+	:align: center
+	:figwidth: 75%
+
+This final figure shows the anomalous unit when the air and background units are cut-off.
+
+.. figure:: ../../images/IsoToGeoMod/createmodel9.png
+	:align: center
+	:figwidth: 75%
+
+Now we have a geologic model that was based on the isosurface of a physical property model. We can look at the geology definition for this model: **Geology Model** |rarr| **Geology definition** |rarr| **Edit**, which brings up the following window.
+
+.. figure:: ../../images/IsoToGeoMod/geodef.png
+	:align: center
+	:figwidth: 75%
+
+The geology definition shows the minimum and maximum values for each unit.
 
 
 
