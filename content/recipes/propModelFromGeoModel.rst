@@ -24,3 +24,15 @@ This brings up the following window:
 .. figure:: ../../images/createModFromGeo/geodef.png
 	:align: center
 	:figwidth: 100%
+
+Currently, there are no physical properties assigned to each of the units. The units have the header "Index" and in this example there are 3. Click on "Add column" to add a column for physical properties. A window will appear, prompting for the name of the new column:
+
+.. figure:: ../../images/createModFromGeo/addcolumn.png
+	:align: center
+	:figwidth: 50%
+
+Enter the desired name. For this example, the name used is "susValue". Click "Value" if the column will contain numbers (e.g., conductivity values) or "String" if the column will contain words (e.g., rock names). Here we are interested in physical property values so we click "Value". The window will close and the new column appears in the geology definition, as shown below:
+
+.. figure:: ../../images/createModFromGeo/geodef2.png
+	:align: center
+	:figwidth: 100%
