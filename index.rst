@@ -23,4 +23,6 @@ Welcome to the GIFtools cookbook! Below you will find the quick-start guide to h
 
 .. tip:: Try using the search bar to quickly find what you are looking for!
 
+.. tip:: Figures too small to read? Right-click on them and select "Open image in new tab" to get a bigger view.
+
 
