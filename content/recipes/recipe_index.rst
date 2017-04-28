@@ -10,7 +10,8 @@ Recipes
     Use a surface (or surfaces) in an inversion <surfaceInInversion>
     Import TEM data from a Geosoft xyz or csv file <importVTEMdata>
     Add transmitter information to a TEM data object <addTxToTEMdata>
-    Create a geologic model from an isosurface <IsoSurfaceToGeoModel>
+    Create a geology model from an isosurface <IsoSurfaceToGeoModel>
+    Create a physical property model from a geology model <propModelFromGeoModel>
 
 ..   Project DC/IP 3D data onto a 2D lines for DCIP2D inversion <dcip3Dto2D>
 

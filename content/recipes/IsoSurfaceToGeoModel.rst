@@ -2,8 +2,8 @@
 
 .. include:: <isonum.txt>
 
-Create a geologic model from an isosurface
-==========================================
+Create a geology model from an isosurface
+=========================================
 
 In GIFtools, a geologic model can be generated from any physical property model (e.g., a density contrast model or a conductivity model). This recipe outlines the steps to create a geologic model based on isosurfaces from a physical property model.
 
