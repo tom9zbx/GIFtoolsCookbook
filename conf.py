@@ -16,6 +16,8 @@ import sys
 import os
 import shlex
 
+sys.path.append(os.path.abspath('./_ext'))
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -31,6 +33,7 @@ import shlex
 # ones.
 extensions = [
     'sphinx.ext.mathjax',
+    'edit_on_github',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -109,6 +112,12 @@ pygments_style = 'sphinx'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
+
+# -- Edit on Github Extension ---------------------------------------------
+
+edit_on_github_project = 'ubcgif/GIFtoolsCookbook'
+edit_on_github_branch = 'master'
+check_meta = False
 
 
 # -- Options for HTML output ----------------------------------------------
