@@ -9,6 +9,3 @@ Below is a sample CSV file with the header [HID,DEPTH,AZIMUTH,DIP]:
 
 .. figure:: ../../images/CSVfileEx.png
    :align: center
-
-
-
