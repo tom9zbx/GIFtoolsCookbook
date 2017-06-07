@@ -34,6 +34,8 @@ sys.path.append(os.path.abspath('./_ext'))
 extensions = [
     'sphinx.ext.mathjax',
     'edit_on_github',
+    'purpose',
+    'example',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
