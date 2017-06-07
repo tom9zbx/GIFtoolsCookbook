@@ -48,9 +48,11 @@ General functionality covering all data types
 - General model GUI: `YouTube <https://youtu.be/UfotZKDYgJI>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/modelGUI.wmv>`__ (123 MB)
 - Create a tensor mesh: `YouTube <https://youtu.be/IIUDA5e1wfc>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/simpleTensorMesh.wmv>`__ (34 MB)
 - Using the modelBuilder module: `YouTube <https://youtu.be/uXipYfitAIw>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/modelBuilder.wmv>`__ (11 MB)
-- Assign uncertainties to any data set: `Youtube <https://youtu.be/wAVPR_GZEqM>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/assignUncertainties.wmv>`__ (13 MB)
+- Assign uncertainties to any data set: `YouTube <https://youtu.be/wAVPR_GZEqM>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/assignUncertainties.wmv>`__ (13 MB)
 - Use of data calculators: `YouTube <https://youtu.be/57Ii6zYLr04>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/dataCalculators.wmv>`__ (35 MB)
 - Use of calculator for models: `YouTube <https://youtu.be/5xoQe7tvTDw>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/modelCalculator.wmv>`__ (16 MB)
+- View convergence curves for an inversion: `YouTube <https://youtu.be/yPO3snYtxgM>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/convergenceCurves.wmv>`__ (15 MB)
+- Create topography data from data: `YouTube <https://youtu.be/TKljJn-AB14>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/createTopoFromData.wmv>`__ (8 MB)
 
 Data types
 ^^^^^^^^^^
@@ -72,6 +74,7 @@ In this section, we summarize the general functionality associated with each dat
 - Read output files from mag3d and view predicted data, recovered models, and inversion diagnostics (e.g., Tikhonov curve): `YouTube <https://youtu.be/-sQPMDyhHI4>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/magInversionLoadView.wmv>`__ (26 MB)
 - Perform joint inversion on multiple magnetic data sets with mag3d: `YouTube <https://youtu.be/TK5WDJTDDgk>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/jointInversionMag.wmv>`__ (50 MB)
 - Perform equivalent source processing (with magsenes and maginves): `YouTube <https://youtu.be/H60nQ6KKTbs>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/mages.wmv>`__ (25 MB)
+- Add Gaussian noise to the data: `YouTube <https://youtu.be/aAEo570HRUk>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/addGaussianNoise.wmv>`__ (6 MB)
 
 .. _VTgravdata:
 
@@ -86,18 +89,21 @@ In this section, we summarize the general functionality associated with each dat
 - Set up input file and output files for use with grav3d inversion
 - Read output files from grav3d and view predicted data, recovered models, and inversion diagnostics
 
+.. tip:: Check the magnetic data section, too, as often what works there, also works for gravity (both being potential field data).
+
 .. _VTdcdata:
 
 **Direct current data (DCdata)**
 
 - I/O of GIF-formatted dcip2d and dcip3d data files: see :ref:`general <VToverview>` functionality
-- Create 2D data sets from 3D data and combine 2D data sets into 3D data files
+- Create 2D data sets from 3D data and combine 2D data sets into 3D data files: `YouTube <https://youtu.be/xDurE0FmxoQ>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/dcip3dTo2d.wmv>`__ (27 MB)
 - Add standard deviations (% and floor) to data: see :ref:`general <VToverview>` functionality
 - View electrode positions and potential in 3D
 - Edit datum or standard deviation or completely remove them: see :ref:`general <VToverview>` functionality
 - Output files for forward modelling
 - Set up input file and output files for use with dcip2d or dcip3d inversion
 - Read output files from dcip2d or dcip3d and view predicted data, recovered models, and inversion diagnostics
+- Calculate normalized voltage from apparent resistivity: `YouTube <https://youtu.be/NvtsJUzsBeE>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/appRhoToVoltage.wmv>`__ (8 MB)
 
 .. _VTipdata:
 
@@ -196,6 +202,7 @@ In this section, we summarize the general functionality associated with each typ
 
 - I/O and view 3D tensor meshes (for use with 3D codes): `YouTube <https://youtu.be/y0oIlPu_4Pw>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/ioMesh3d.wmv>`__ (9.8 MB)
 - Create meshes internally with GIFtools for potential-field data: see :ref:`general <VToverview>` functionality
+- Create a simple mesh: `YouTube <https://youtu.be/UpQJiZVRiIU>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/createSimpleMesh.wmv>`__ (13 MB)
 - Create ocTree meshes from tensor meshes (and interpolate the model)
 
 .. _VTocmesh:
@@ -226,6 +233,8 @@ In this section, we summarize the general functionality associated with each typ
 - Create active cell models from locations to choose where cells should be inactive
 - Create simple constant-value models: `YouTube <https://youtu.be/Jnl6_SKRFQ0>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/createConstantModel.wmv>`__ (4.7 MB)
 - Format allows for multiple models to be exported into bound file(s) for inversion (through GIFinversion objects)
+- Assign value to air cells: `YouTube <https://youtu.be/heDq7Of5IIs>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/applyAirCells.wmv>`__ (13 MB)
+
 
 .. _VTfcmodel:
 
