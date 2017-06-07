@@ -57,8 +57,7 @@ The info panel will show the origin of the property data, a data summary, the se
 
 .. figure:: ../../../images/importBHdata/tree.png
 	:align: center
-	:figwidth: 75%
-
+	:figwidth: 100%
 
 Now the borehole data can be visualized, discretized onto a mesh, and used within Model Builder to create models and weighting functions.
 
@@ -66,7 +65,31 @@ Now the borehole data can be visualized, discretized onto a mesh, and used withi
 
 **Interpolate**
 
+Now, let's import borehole data that has measurement between two elevations (i.e., to and from). Repeat the steps above to import borehole data in GIFtools, up to Step 3. Because this borehole data has "To" and "From" columns, we now select the "Interpolate" radio button in Step 3 for the data discretization.
 
+.. figure:: ../../../images/importBHdata/import4.png
+	:align: center
+	:figwidth: 75%
+
+We have decided to interpolate these data every 10 m.
+
+Click OK to import the files and move onto the header dialog. The header dialog will appear just as before, except now the "Intervals" option is selected instead of "Depth". Select the appropriate headers for each item. Once done, our dialog looks like the following:
+
+.. figure:: ../../../images/importBHdata/headers3.png
+	:align: center
+	:figwidth: 75%
+
+Click OK to import and set the headers. Once imported, a BOREdata item has been added to the GIFtools project tree and the name of it is the same as the property file name. In this case, that is "Geology1". When the item is highlighted in the tree, the info panel will provide the same type of information as we saw earlier for the discrete example:
+
+.. figure:: ../../../images/importBHdata/tree2.png
+	:align: center
+	:figwidth: 100%
+
+Now the borehole data can be visualized, discretized onto a mesh, and used within Model Builder to create models and weighting functions.
+
+.. example:: Collar, survey, and property file along with a GIFtools project to repeat the above steps to import interpolated borehole data: `download <http://www.eoas.ubc.ca/~sdevries/GIFtoolsExamples/ImportDiscreteBoreholeData_Example2.zip>`__
+
+.. note:: GIFtools needs all location data to be in meters! Check your borehole data in case it may be in feet.
 
 File formats
 ------------
