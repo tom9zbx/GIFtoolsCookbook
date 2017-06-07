@@ -24,7 +24,6 @@ Below is our entire collection of video tutorials!
 
 **Meshes**
 
-- :ref:`2D tensor mesh <VT2dmesh>`
 - :ref:`3D tensor mesh <VT3dmesh>`
 - :ref:`OcTree mesh <VTocmesh>`
 
@@ -48,11 +47,18 @@ General functionality covering all data types
 - General model GUI: `YouTube <https://youtu.be/UfotZKDYgJI>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/modelGUI.wmv>`__ (123 MB)
 - Create a tensor mesh: `YouTube <https://youtu.be/IIUDA5e1wfc>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/simpleTensorMesh.wmv>`__ (34 MB)
 - Using the modelBuilder module: `YouTube <https://youtu.be/uXipYfitAIw>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/modelBuilder.wmv>`__ (11 MB)
-- Assign uncertainties to any data set: `YouTube <https://youtu.be/wAVPR_GZEqM>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/assignUncertainties.wmv>`__ (13 MB)
+- Assign simple uncertainties to any data set: `YouTube <https://www.youtube.com/watch?v=Hv7fEbApYHk>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/simpleUncert.wmv>`__ (7 MB)
 - Use of data calculators: `YouTube <https://youtu.be/57Ii6zYLr04>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/dataCalculators.wmv>`__ (35 MB)
 - Use of calculator for models: `YouTube <https://youtu.be/5xoQe7tvTDw>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/modelCalculator.wmv>`__ (16 MB)
 - View convergence curves for an inversion: `YouTube <https://youtu.be/yPO3snYtxgM>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/convergenceCurves.wmv>`__ (15 MB)
 - Create topography data from data: `YouTube <https://youtu.be/TKljJn-AB14>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/createTopoFromData.wmv>`__ (8 MB)
+- Downsample data using a mesh: `YouTube <https://youtu.be/w5dcDiPh0fw>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/dsToMesh.wmv>`__ (26 MB)
+- Remove data outside of a mesh: `YouTube <https://youtu.be/BoJHdTkxpDM>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/removeDataOutsideOfMesh.wmv>`__ (11 MB)
+- Set i/o headers: `YouTube <https://youtu.be/_a8YHtT0vLY>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/ioHeader.wmv>`__ (8 MB)
+- Rename data headers: `YouTube <https://youtu.be/t1dd-U2NIyg>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/renameDataHeaders.wmv>`__ (5 MB)
+- Set the number of OMP threads: `YouTube <https://youtu.be/iDOL4JOIHw8>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/setOMPthreads.wmv>`__ (9 MB)
+- View data as a table: `YouTube <https://www.youtube.com/watch?v=J7eU3W-BTAg>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/tableView.wmv>`__ (8 MB)
+
 
 Data types
 ^^^^^^^^^^
@@ -85,9 +91,6 @@ In this section, we summarize the general functionality associated with each dat
 - De-trend data with polynomial fits: see :ref:`magnetic data <VTMagdata>` or via the data GUI
 - Assign standard deviations (% and floor) to data: see :ref:`general <VToverview>` functionality
 - Edit datum or standard deviation or completely remove them: see :ref:`general <VToverview>` functionality
-- Output files for forward modelling
-- Set up input file and output files for use with grav3d inversion
-- Read output files from grav3d and view predicted data, recovered models, and inversion diagnostics
 
 .. tip:: Check the magnetic data section, too, as often what works there, also works for gravity (both being potential field data).
 
@@ -96,28 +99,22 @@ In this section, we summarize the general functionality associated with each dat
 **Direct current data (DCdata)**
 
 - I/O of GIF-formatted dcip2d and dcip3d data files: see :ref:`general <VToverview>` functionality
+- Import DCIP ascii files: `YouTube <https://youtu.be/pSlLpcB6Bn4>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/importDCIPascii.wmv>`__ (15 MB)
 - Create 2D data sets from 3D data and combine 2D data sets into 3D data files: `YouTube <https://youtu.be/xDurE0FmxoQ>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/dcip3dTo2d.wmv>`__ (27 MB)
 - Add standard deviations (% and floor) to data: see :ref:`general <VToverview>` functionality
-- View electrode positions and potential in 3D
 - Edit datum or standard deviation or completely remove them: see :ref:`general <VToverview>` functionality
-- Output files for forward modelling
-- Set up input file and output files for use with dcip2d or dcip3d inversion
-- Read output files from dcip2d or dcip3d and view predicted data, recovered models, and inversion diagnostics
 - Calculate normalized voltage from apparent resistivity: `YouTube <https://youtu.be/NvtsJUzsBeE>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/appRhoToVoltage.wmv>`__ (8 MB)
+- Calculate apparent resistivity from normalized voltage: `YouTube <https://www.youtube.com/watch?v=PYyxYapqm34>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/voltageToAppRho.wmv>`__ (6 MB)
+- Create input files and run make_wdat.exe: `YouTube <https://www.youtube.com/watch?v=RQbkrrGy7l8>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/useCalcWdat.wmv>`__ (24 MB)
 
 .. _VTipdata:
 
 **Induced polarization data (IPdata)**
 
 - I/O of GIF-formatted dcip2d and dcip3d data files: see :ref:`general <VToverview>` functionality
-- Create 2D data sets from 3D data and combine 2D data sets into 3D data files
-- Work with any units of IP data
+- Import DCIP ascii files: `YouTube <https://youtu.be/pSlLpcB6Bn4>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/importDCIPascii.wmv>`__ (15 MB)
 - Add standard deviations (% and floor) to data: see :ref:`general <VToverview>` functionality
-- View electrode positions and data in 3D
 - Edit datum or standard deviation or completely remove them: see :ref:`general <VToverview>` functionality
-- Output files for forward modelling
-- Set up input file and output files for use with dcip2d or dcip3d inversion
-- Read output files from dcip2d or dcip3d and view predicted data, recovered models, and inversion diagnostics
 
 .. _VTfemdata:
 
@@ -126,9 +123,8 @@ In this section, we summarize the general functionality associated with each dat
 - I/O of GIF-formatted E3Dinv data files: see :ref:`general <VToverview>` functionality
 - I/O of ascii-based CSV and XYZ file type: see :ref:`general <VToverview>` functionality
 - Edit datum or standard deviation or completely remove them: see :ref:`general <VToverview>` functionality
-- Output files for forward modelling using E3Dfwd
-- Set up input file and output files for use with E3Dinv inversion
-- Load output files (predicted data, recovered models, and inversion diagnostics) from E3Dinv
+- Simple and column calculator (same functionality as TEM): `YouTube <https://youtu.be/QSeR3ALMu88>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/emCalculators.wmv>`__ (5 MB)
+- Assigning frequency-based uncertainty to EM data (same functionality as TEM): `YouTube <https://youtu.be/fknpgzhUVIc>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/emUncert.wmv>`__ (19 MB)
 
 .. _VTtemdata:
 
@@ -137,11 +133,10 @@ In this section, we summarize the general functionality associated with each dat
 - I/O of GIF-formatted TDoctree or EH3DTD data files: see :ref:`general <VToverview>` functionality
 - I/O of ascii-based CSV and XYZ file type: see :ref:`general <VToverview>` functionality
 - Edit datum or standard deviation or completely remove them: see :ref:`general <VToverview>` functionality
-- Output files for forward modelling using TDoctree
-- Set up input file and output files for use with TDoctree inversion
-- Load output files (predicted data, recovered models, and inversion diagnostics) from TDoctree
 - Add AEM coincident loop sources: `YouTube <https://youtu.be/h9Vd-YPmuvY>`__, `download <http://www.eos.ubc.ca/~kdavis/giftoolsdocs/addCoincidentLoop.wmv>`__ (10 MB)
 - Add AEM offset loop sources: `YouTube <https://youtu.be/Z0Aikqpnt2o>`__, `download <http://www.eos.ubc.ca/~kdavis/giftoolsdocs/addOffsetLoopSources.wmv>`__ (15 MB)
+- Simple and column calculator: `YouTube <https://youtu.be/QSeR3ALMu88>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/emCalculators.wmv>`__ (5 MB)
+- Assigning time-based uncertainty to EM data: `YouTube <https://youtu.be/fknpgzhUVIc>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/emUncert.wmv>`__ (19 MB)
 
 .. _VTmtdata:
 
@@ -149,11 +144,8 @@ In this section, we summarize the general functionality associated with each dat
 
 - I/O of GIF-formatted MT3Dinv data files: see :ref:`general <VToverview>` functionality
 - I/O of ascii-based CSV and XYZ file type: see :ref:`general <VToverview>` functionality
-- Load EDI files
+- Import EDI files: `YouTube <https://youtu.be/kTxPQ81GDOw>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/importEDIfiles.wmv>`__ (14 MB)
 - Edit datum or standard deviation or completely remove them: see :ref:`general <VToverview>` functionality
-- Output files for forward modelling using MT3Dfwd
-- Set up input file and output files for use with MT3Dinv inversion
-- Load output files (predicted data, recovered models, and inversion diagnostics) from MT3Dinv
 
 .. _VTztemdata:
 
@@ -162,8 +154,7 @@ In this section, we summarize the general functionality associated with each dat
 - I/O of GIF-formatted MT3Dinv data files: see :ref:`general <VToverview>` functionality
 - I/O of ascii-based CSV and XYZ file type: see :ref:`general <VToverview>` functionality
 - Edit datum or standard deviation or completely remove them: see :ref:`general <VToverview>` functionality
-- Set up input file and output files for use with MT3Dinv inversion
-- Load output files (predicted data, recovered models, and inversion diagnostics) from MT3Dinv
+- Add a base station: `YouTube <https://www.youtube.com/watch?v=IfKbArPCR6E>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/ztemAddBaseStation.wmv>`__ (5 MB)
 
 .. _VTppdata:
 
@@ -184,17 +175,14 @@ In this section, we summarize the general functionality associated with each dat
 - Load and view Canadian Digital Elevation Data (CDED): `YouTube <https://youtu.be/f9ynycNikXk>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/importCDED.wmv>`__ (13 MB)
 - Merge topography data sets together: `YouTube <https://youtu.be/2WDOsSN2srg>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/mergeTopo.wmv>`__ (11 MB)
 - Down-sample: `YouTube <https://youtu.be/Bq1glleI3sM>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/topoDownSample.wmv>`__ (7.6 MB)
+- Extend topography to mesh edges: `YouTube <https://youtu.be/dTczNnNOPBk>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/extendTopoToMesh.wmv>`__ (6 MB)
+- Create 2D topography from 3D: `YouTube <https://www.youtube.com/watch?v=P-PrZ74Bgrw>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/topo3dTo2d.wmv>`__ ( MB)
 
 Meshes
 ^^^^^^
 In this section, we summarize the general functionality associated with each type of mesh that can be used within GIFtools.
 
 .. _VT2dmesh:
-
-**Two-dimensional tensor mesh (mesh2D)**
-
-- I/O 2D meshes (for use with 2D codes)
-- Keep track of topography and global coordinates of mesh
 
 .. _VT3dmesh:
 
@@ -203,15 +191,13 @@ In this section, we summarize the general functionality associated with each typ
 - I/O and view 3D tensor meshes (for use with 3D codes): `YouTube <https://youtu.be/y0oIlPu_4Pw>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/ioMesh3d.wmv>`__ (9.8 MB)
 - Create meshes internally with GIFtools for potential-field data: see :ref:`general <VToverview>` functionality
 - Create a simple mesh: `YouTube <https://youtu.be/UpQJiZVRiIU>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/createSimpleMesh.wmv>`__ (13 MB)
-- Create ocTree meshes from tensor meshes (and interpolate the model)
 
 .. _VTocmesh:
 
 **OcTree meshes (meshOctree)**
 
 - I/O and view the ocTree meshes (for use with ocTree codes): `YouTube <https://youtu.be/Cq27wKDFRNY>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/ioMeshOctree.wmv>`__ (9.4 MB)
-- Fine-tune ocTree meshes by choosing which cells to coarsen and refine
-- Easily create input files and (load) meshes interacting with Fortran-based executables (e.g., create_octree_mesh_e3d)
+- Create refined octree mesh and active cell model from topography: `YouTube <https://youtu.be/GTBLjUICt88>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/refineOcTreeFromTopo.wmv>`__ (21 MB)
 
 Models
 ^^^^^^
@@ -222,17 +208,10 @@ In this section, we summarize the general functionality associated with each typ
 **Cell-centred discretized models (GIFmodel)**
 
 - I/O and view GIF models: see :ref:`general <VToverview>` functionality
-- Re-mesh and transfer models from 3D to ocTree and vice versa
-- Interpolate 2D models onto 3D models to combine information from multiple 2D inversions or cross sections
 - Build reference models for inversion using other GIFmodels, geologic information, and/or borehole data: see :ref:`modelBuilder <VTppdata>` functionality
-- Add convex-hull polygons/polyhedra or simple blocks to models for fast hypothesis testing
-- Work with geology models that are accompanied with a definition to define property values, upper and lower bounds, rock type, and/or notes
-- Edit models via the painting tool
-- Use a simple calculator to convert between units and change the unit description: see :ref:`general <VToverview>` functionality
+- Use a simple calculator to convert between units and change the unit description: `YouTube <https://youtu.be/x9Hhj5Crzjc>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/modelCalculator.wmv>`__ (5 MB)
 - Create active cell models from topography data (TOPOdata): `YouTube <https://youtu.be/rJFbWIBp6mE>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/activeCellTopo.wmv>`__ (16 MB)
-- Create active cell models from locations to choose where cells should be inactive
 - Create simple constant-value models: `YouTube <https://youtu.be/Jnl6_SKRFQ0>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/createConstantModel.wmv>`__ (4.7 MB)
-- Format allows for multiple models to be exported into bound file(s) for inversion (through GIFinversion objects)
 - Assign value to air cells: `YouTube <https://youtu.be/heDq7Of5IIs>`__, `download <http://www.eoas.ubc.ca/~sdevries/Videos/applyAirCells.wmv>`__ (13 MB)
 
 
@@ -242,6 +221,4 @@ In this section, we summarize the general functionality associated with each typ
 
 - I/O and view GIF models discretized on faces (e.g., weighting files): see :ref:`general <VToverview>` functionality (model GUI will view FACEmodels)
 - Create face weighting for inversion based on a reference model: see :ref:`modelBuilder <VTppdata>` functionality
-- Edit weighting parameters with ease with our painting tool
-- Easily create input files and (load) face models interacting with Fortran-based executables (e.g., create_interface_weights)
 
