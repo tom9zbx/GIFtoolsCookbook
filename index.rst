@@ -25,4 +25,6 @@ Welcome to the GIFtools cookbook! Below you will find the quick-start guide to h
 
 .. tip:: Figures too small to read? Right-click on them and select "Open image in new tab" to get a bigger view.
 
+.. example:: Look for this type of box throughout the cookbook to find examples to download. It is recommended to use the latest version of GIFtools.
+
 
