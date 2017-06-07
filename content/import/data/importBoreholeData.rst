@@ -62,6 +62,8 @@ The info panel will show the origin of the property data, a data summary, the se
 
 Now the borehole data can be visualized, discretized onto a mesh, and used within Model Builder to create models and weighting functions.
 
+.. example:: Collar, survey, and property file along with a GIFtools project to repeat the above steps to import discrete borehole data: `download <http://www.eoas.ubc.ca/~sdevries/GIFtoolsExamples/ImportDiscreteBoreholeData_Example.zip>`__
+
 **Interpolate**
 
 

@@ -1,5 +1,7 @@
 {% extends "!layout.html" %}
 
+{% set css_files = css_files + [ "_static/css/theme_overrides.css" ] %}
+
 {%- block extrahead %}
 {{ super() }}
 <script type="text/javascript">
