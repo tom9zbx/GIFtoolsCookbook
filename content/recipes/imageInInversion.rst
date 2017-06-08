@@ -81,4 +81,7 @@ Now we see the image, draped over the topography and extended 200 m in depth.
 From here, you can use the geology model to :ref:`create a physical property model <propModelFromGeoModel>` (i.e.., reference model, initial model, upper and lower bounds) or :ref:`create weights <weightsFromGeoModel>`.
 
 
+.. example:: The files used in this recipe, along with the completed project can be downloaded `here <http://www.eoas.ubc.ca/~sdevries/GIFtoolsExamples/CreateGeoModelFromImage_Example.zip>`__.
+
+
 
