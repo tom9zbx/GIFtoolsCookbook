@@ -6,7 +6,7 @@ Recipes
 .. toctree::
    :maxdepth: 1
 
-    Use a geologic map in an inversion <imageInInversion>
+    Create a geologic model from an image <imageInInversion>
     Use a surface (or surfaces) in an inversion <surfaceInInversion>
     Import TEM data from a Geosoft xyz or csv file <importVTEMdata>
     Add transmitter information to a TEM data object <addTxToTEMdata>
