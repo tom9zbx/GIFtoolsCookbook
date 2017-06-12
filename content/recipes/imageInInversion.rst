@@ -37,7 +37,7 @@ Using the mesh, :ref:`create <createModelBuilder>` or use an already existing mo
 
 Click on the modelBuilder item in the project tree and use the following menus to create a geology model from an image:
 
-   **Create model** |rarr| **Geology model from ** |rarr| **Map image**
+   **Create model** |rarr| **Geology model from** |rarr| **Map image**
 
 .. figure:: ../../images/ImageToGeoMod/creategeomodel.png
     :align: center
