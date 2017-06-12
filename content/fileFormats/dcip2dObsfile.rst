@@ -27,6 +27,8 @@ The DCIP2D can handle arbitrary electrode configurations, and a mixture of diffe
     - IPTYPE = 1: Flag for ``apparent chargeability`` IP data
     - IPTYPE = 2: Flag for ``secondary potentials`` IP data
 
+- N: Number of current electrodes in the file
+
 - A\ :math:`^x_i`: i\ :math:`^{th}` horizontal position along line of current electrode A
 
 - A\ :math:`^z_i`: i\ :math:`^{th}` elevation of current electrode A
