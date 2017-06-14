@@ -61,7 +61,7 @@ The info panel will show the origin of the property data, a data summary, the se
 
 Now the borehole data can be visualized, discretized onto a mesh, and used within Model Builder to create models and weighting functions.
 
-.. example:: Collar, survey, and property file along with a GIFtools project to repeat the above steps to import discrete borehole data: `download <http://www.eoas.ubc.ca/~sdevries/GIFtoolsExamples/ImportDiscreteBoreholeData_Example.zip>`__
+.. example:: Collar, survey, and property file along with a GIFtools project to repeat the above steps to import discrete borehole data: `download <https://www.eoas.ubc.ca/~sdevries/GIFtoolsExamples/ImportDiscreteBoreholeData_Example.zip>`__
 
 **Interpolate**
 
@@ -87,7 +87,7 @@ Click OK to import and set the headers. Once imported, a BOREdata item has been 
 
 Now the borehole data can be visualized, discretized onto a mesh, and used within Model Builder to create models and weighting functions.
 
-.. example:: Collar, survey, and property file along with a GIFtools project to repeat the above steps to import interpolated borehole data: `download <http://www.eoas.ubc.ca/~sdevries/GIFtoolsExamples/ImportDiscreteBoreholeData_Example2.zip>`__
+.. example:: Collar, survey, and property file along with a GIFtools project to repeat the above steps to import interpolated borehole data: `download <https://www.eoas.ubc.ca/~sdevries/GIFtoolsExamples/ImportDiscreteBoreholeData_Example2.zip>`__
 
 .. note:: GIFtools needs all location data to be in meters! Check your borehole data in case it may be in feet.
 
