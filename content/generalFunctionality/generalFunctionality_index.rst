@@ -219,14 +219,38 @@ Equivalent-source processing
 Fortran utility programs
 ------------------------
 
-    **Creating an object:**
+    **Creating octree mesh:**
 
     .. toctree::
         :maxdepth: 1
 
-        OcTree mesh for E3D <utilityCodes/e3doctreeMesh>
-        OcTree mesh for OCTMAGDE <utilityCodes/magoctreeMesh>
-        Interpolate a 3D model onto another mesh <utilityCodes/interpolateModel>        
+        E3D <utilityCodes/e3doctreeMesh>
+        E3DMT (and ZTEM) <utilityCodes/e3dmtoctreeMesh>
+        TD <utilityCodes/tdoctreeMesh>
+        DC (and IP) <utilityCodes/dcoctreeMesh>
+        Gravity (PDE) <utilityCodes/gravoctreeMesh>
+        Magnetics (PDE) <utilityCodes/magoctreeMesh>
+
+    **Interpolate models**   
+
+    .. toctree::
+    	:maxdepth: 1
+
+    	3D mesh to 3D mesh <utilityCodes/interpolateModel>    
+    	3D mesh to octree <utilityCodes/mesh3DToOctree>
+    	Octree to mesh3D <utilityCodes/octreeToMesh3D>
+    	Octree to octree <utilityCodes/octreeToOctree>
+
+    **Octree utilities**
+
+    .. toctree::
+    	:maxdepth: 1
+
+    	Regularize octree mesh <utilityCodes/regularizeOctreeMesh>
+    	Refine octree mesh <utilityCodes/refineOctreeMesh>
+    	Create surface weights <utilityCodes/createSurfaceWeights>
+    	Create interface weights <utilityCodes/createInterfaceWeights>
+    	Export cell centre locations <utilityCodes/exportCellCentres>
 
     **General functionality:**
 
