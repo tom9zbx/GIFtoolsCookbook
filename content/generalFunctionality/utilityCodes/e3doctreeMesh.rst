@@ -12,6 +12,6 @@ Interaction with the Fortran utility program ``create_octree_mesh_e3d`` can be d
 
 .. figure:: ../../../images/utilityCreateMesh.png
     :align: center
-    :width: 400
+    :figwidth: 100%
 
 

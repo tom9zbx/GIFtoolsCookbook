@@ -60,6 +60,12 @@ Point device
 
 -  Minimum .NET framework version 4.5.1
 
+
+Visual C++ 2013 x64
+--------------------
+
+- `Download <https://support.microsoft.com/en-us/help/3179560/update-for-visual-c-2013-and-visual-c-redistributable-package>`__
+
 Browser
 -------
 
