@@ -18,6 +18,8 @@ Prerequisites
 -------------
 Import a mesh:
 
+- :ref:`1D mesh <importMesh1D>`
+
 - :ref:`2D mesh <importMesh2D>`
 
 - :ref:`3D mesh <importMesh3D>`

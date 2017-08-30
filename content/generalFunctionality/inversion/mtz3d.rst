@@ -5,12 +5,14 @@
 Create a natural-source EM inversion
 ====================================
 
-Natural-source EM data, such as ZTEM or MT data can be inverted on a tensor mesh using the software package ``MTZ3D``. To create the inversion object, use the menu structure:
+Natural-source EM data, such as ZTEM or MT data can be inverted on a 3D mesh using the software package ``MTZ3D`` or on an octree mesh using ``E3DMT``. To create the inversion objects, use the menu structure:
 
-**Create** |rarr| **Inversion** |rarr| **MTZ3D (MT and ZTEM: tensor mesh)**
+**Create** |rarr| **Inversion** |rarr| **Natural-source EM** |rarr| **MTZ3D (3D)**
+
+**Create** |rarr| **Inversion** |rarr| **Natural-source EM** |rarr| **E3DMT (octree)**
 
 
-.. figure:: ../../../images/createFEMinversion.png
+.. figure:: ../../../images/createInv.png
     :align: center
     :width: 400
 
