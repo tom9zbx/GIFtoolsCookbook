@@ -29,6 +29,7 @@ Mesh
 .. toctree::
     :maxdepth: 1
 
+	1D mesh <mesh/importMesh1D>
     2D mesh <mesh/importMesh2D>
     3D mesh <mesh/importMesh3D>    
     OcTree mesh <mesh/importMeshOctree>

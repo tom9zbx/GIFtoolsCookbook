@@ -124,14 +124,17 @@ Model
 Forward modelling
 -----------------
 
-    **Creating a object:**
+    **Creating an object:**
    
     .. toctree::
         :maxdepth: 1
 
-        Gravity <forward/grav3d>
         Magnetics <forward/mag3d>
+        Gravity <forward/grav3d>
+        Gravity gradiometry <forward/ggFwd>
         DC/IP <forward/dcipFwd>
+        Frequency-domain EM <forward/femFwd>
+        Time-domain EM <forward/temFwd>
 
     **General functionality:**
 
@@ -156,11 +159,13 @@ Inversion
         :maxdepth: 1
         
         Through a workflow <inversion/inversionWorkflow>
-        Gravity <inversion/grav3d>
         Magnetics <inversion/mag3d>
+        Gravity <inversion/grav3d>
+        Gravity gradiometry <inversion/ggInv>
         DC/IP <inversion/dcipInv>        
-        ZTEM or MT <inversion/mtz3d>
-        FEM <inversion/femInv>
+        Frequency-domain EM <inversion/femInv>
+        Time-domain EM <inversion/temInv>
+        Natural-source EM <inversion/mtz3d>
 
     **General functionality:**
 
