@@ -40,7 +40,7 @@ General functionality covering all data types
 - Main look and feel of GIFtools: `YouTube <https://www.youtube.com/embed/Kqm0TyNJ-vQ>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/lookAndFeel.wmv>`__ (11 MB)
 - Import ascii-based XYZ files: `YouTube <https://youtu.be/FOLEVdzM944>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/importDataXYZ.wmv>`__ (18 MB)
 - Import ascii-based CSV files: `YouTube <https://youtu.be/khmT9Gd5SZ0>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/importDataCSV.wmv>`__ (23 MB)
-- Import ascii-based XYZ or CSV files for EM data: `YouTube <https://youtu.be/O11BicvXxx0>`__, `download <https://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/EMimport.wmv>`__ (49 MB)
+- Import ascii-based XYZ or CSV files for EM data: `YouTube <https://youtu.be/O11BicvXxx0>`__, `download <https://www.eoas.ubc.ca/~rshekhtm/giftoolsdocs/EMimport.wmv>`__ (49 MB)
 - Import GIF-formatted files: `YouTube <https://youtu.be/xqhvcGcqwJc>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/ioData.wmv>`__ (5 MB)
 - Change the number of openMP threads for executables and find the version number: `YouTube <https://youtu.be/KMZA7q85og8>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/openMPandAbout.wmv>`__ (12 MB)
 - General data GUI: `YouTube <https://youtu.be/JopurLh1fQc>`__, `download <http://www.eos.ubc.ca/~rshekhtm/giftoolsdocs/dataGUI.wmv>`__ (87 MB)
