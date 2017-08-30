@@ -10,7 +10,7 @@ Interaction with the Fortran utility program ``create_octree_1mesh_td`` can be d
 
 **Create** |rarr| **Fortran utility program** |rarr| **Create ocTree mesh** |rarr| **TD (1 mesh)**
 
-.. figure:: ../../../images/utilityCreateMesh.png
+.. figure:: ../../../images/createOctreeMesh/menustructure.png
     :align: center
     :figwidth: 100%
 

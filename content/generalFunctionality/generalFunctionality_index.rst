@@ -226,7 +226,8 @@ Fortran utility programs
 
         E3D <utilityCodes/e3doctreeMesh>
         E3DMT (and ZTEM) <utilityCodes/e3dmtoctreeMesh>
-        TD <utilityCodes/tdoctreeMesh>
+        TD (1 mesh) <utilityCodes/tdoctreeMesh>
+        TD (tiled) <utilityCodes/tdoctreeMeshTiled>
         DC (and IP) <utilityCodes/dcoctreeMesh>
         Gravity (PDE) <utilityCodes/gravoctreeMesh>
         Magnetics (PDE) <utilityCodes/magoctreeMesh>
@@ -251,6 +252,7 @@ Fortran utility programs
     	Create surface weights <utilityCodes/createSurfaceWeights>
     	Create interface weights <utilityCodes/createInterfaceWeights>
     	Export cell centre locations <utilityCodes/exportCellCentres>
+        Create surface electrodes (DC/IP) <utilityCodes/createElectrodes>
 
     **General functionality:**
 
