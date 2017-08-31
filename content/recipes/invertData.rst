@@ -1,4 +1,4 @@
-.. _inverData:
+.. _invertData:
 
 .. include:: <isonum.txt>
 
@@ -65,7 +65,7 @@ For this gravity example, select the vertical gravity anomaly and the uncertaint
         :align: center
 
 
-Click "OK" to close the dialog and apply the changes. The info panel for the data item will have updated and all minmimum data requirements for the inversion are now set (indicated using ** in the info panel).
+Click "OK" to close the dialog and apply the changes. The info panel for the data item will have updated and all minimum data requirements for the inversion are now set (indicated using ** in the info panel).
 
 .. _invStep2:
 
