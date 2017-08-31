@@ -15,6 +15,8 @@ Recipes
     Create weights from a geology model <weightsFromGeoModel>
     Create a waveform for a TEM data set <createTEMwaveform>
     Create an octree mesh using a Fortran utility <createOctreeMesh>
+    Tutorial on forward modelling data in GIFtools <fwdModData>
+    Tutorial on inverting data in GIFtools <invertData>
 
 ..   Project DC/IP 3D data onto a 2D lines for DCIP2D inversion <dcip3Dto2D>
 
