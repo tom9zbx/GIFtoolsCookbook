@@ -1,4 +1,4 @@
-.. _inverData:
+.. _invertData:
 
 .. include:: <isonum.txt>
 
@@ -24,9 +24,9 @@ This recipe requires the following steps:
 
 Start GIFtools or open an already existing project. Because we will be loading in a few files, it is easiest to :ref:`set the working directory <utilSetWorkDir>` to the folder where the files are located and/or where you would like to do the forward model. 
 
-The first step is then to import the gravity survey locations and the topography file. :ref:`Importation of data <data>` will slightly differ, depending on the file type (GIF format, Geosoft XYZ, etc). For this example, the gravity survey file is structured as a Geosoft XYZ while the topography file is in GIF format. We also need to :ref:`import a 3D mesh <importMesh3D>`. All three are imported using the following menus:
+The first step is then to import the gravity data and the topography file. :ref:`Importation of data <data>` will slightly differ, depending on the file type (GIF format, Geosoft XYZ, etc). For this example, the gravity data file is structured as a Geosoft XYZ while the topography file is in GIF format. We also need to :ref:`import a 3D mesh <importMesh3D>`. All three are imported using the following menus:
 
-- For magnetic survey locations: **Import** |rarr| **Data** |rarr| **Gravity** |rarr| Geosoft XYZ
+- For gravity data: **Import** |rarr| **Data** |rarr| **Gravity** |rarr| Geosoft XYZ
 - For topography: **Import** |rarr| **Data** |rarr| **Topography** |rarr| 3D GIF (3D XYZ)
 - For the 3D mesh: **Import** |rarr| **Mesh** |rarr| **3D**
 
@@ -65,7 +65,7 @@ For this gravity example, select the vertical gravity anomaly and the uncertaint
         :align: center
 
 
-Click "OK" to close the dialog and apply the changes. The info panel for the data item will have updated and all minmimum data requirements for the inversion are now set (indicated using ** in the info panel).
+Click "OK" to close the dialog and apply the changes. The info panel for the data item will have updated and all minimum data requirements for the inversion are now set (indicated using ** in the info panel).
 
 .. _invStep2:
 
@@ -251,6 +251,6 @@ The **Log file** option in the visualization menu opens the log file in a text e
 
 .. _invExample:
 
-.. example:: The magnetics survey file, topography file, and field parameter notes along with a GIFtools project to repeat the above steps to create an octree mesh using the Fortran utility: `download <https://www.eoas.ubc.ca/~sdevries/GIFtoolsExamples/InvertData_example.zip>`__
+.. example:: The gravity data file, topography file, and 3D mesh along with a GIFtools project to repeat the above steps to invert for a model: `download <https://www.eoas.ubc.ca/~sdevries/GIFtoolsExamples/InvertData_example.zip>`__
 
 
