@@ -15,7 +15,7 @@ This recipe requires the following steps:
 
 .. _ampStep1:
 
-**STEP 1: import the necessary files**
+**STEP 1: Import the necessary files**
 
 Start GIFtools or open an already existing project. Because we will be loading in a few files, it is easiest to :ref:`set the working directory <utilSetWorkDir>` to the folder where the files are located and/or where you would like to do the forward model. 
 
@@ -32,6 +32,18 @@ The first step is then to import the magnetic data, the topography file, and the
 Once the data are loaded, GIFtools will have the three items shown in the project tree on the left. It's a good idea to regularly :ref:`save <projSave>` your project!
 
 .. note:: If you have a susceptibility model, you can :ref:`import the model <importModel>` and skip directly to :ref:`forward modelling the amplitude data <ampStep3>`.
+
+Before we can solve for an equivalent source model for this magnetic data, we need to :ref:`set the I/O for the data and uncertainties <setioHeaders>`. This means we need to :ref:`assign uncertainties to the data first <assignUncert>`.
+
+Use the menu structure to set the uncertainty for the magnetic data:
+
+**Data Manipulation** |rarr| **Assign uncertainties**
+
+A dialog pops up to add a percentage and/or a floor to each header. We completed the dialog by clicking the **Assign** checkbox for the header "B" and using 0 for percentage and 0.5 nT for the floor. Click "OK" to apply the changes. Now use the menu structure to set the I/O headers for the data:
+
+**Data Manipulation** |rarr| **Set I/O headers**
+
+For this example, make sure the total-field anomaly is set the "B" and the uncertainty to "B_uncert" by choosing these from the drop-down boxes. Click "OK" to close the dialog and apply the changes. The info panel for the magnetic data item will have updated and all minimum data requirements for the inversion are now set (indicated using ** in the info panel).
 
 .. _ampStep2:
 
