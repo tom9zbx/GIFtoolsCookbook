@@ -5,11 +5,11 @@
 Forward model data in GIFtools
 ==============================
 
-In this recipe, we step through forward modelling data, starting from a survey file and a 3D mesh and model. At the bottom of this page, you will find the :ref:`files used in this recipe as well as the complete project and output files <fwdmodExample>`. This recipe uses a magnetic survey file and a susceptibility model on a 3D mesh but the steps are nearly identical for each data and mesh type in GIFtools.
+In this recipe, we step through forward modelling data, starting from a survey file, a topography file, a 3D mesh, and a physical property model. At the bottom of this page, you will find the :ref:`files used in this recipe as well as the complete project and output files <fwdmodExample>`. This recipe uses a magnetic survey file and a susceptibility model on a 3D mesh but the steps are nearly identical for each data and mesh type in GIFtools.
 
 This recipe requires the following steps:
 
-#. :ref:`Import a survey, a mesh, and a model <fwdmodStep1>`
+#. :ref:`Import a survey, topography, a mesh, and a model <fwdmodStep1>`
 #. :ref:`Create a forward model item in GIFtools <fwdmodStep2>`
 #. :ref:`Edit the options <fwdmodStep3>`
 #. :ref:`Write the files <fwdmodStep4>`
@@ -158,6 +158,8 @@ For some forward modelling codes, you can also import the locations file:
 **Magnetics forward modelling** |rarr| **Load** |rarr| **Locations file**
 
 .. note:: One error message that is most likely to appear is one saying that the code isn't found in the path. When creating the forward modelling item, GIFtools automatically looks for the code executable and warns you if it cannot find it. 
+
+.. note:: Once the forward model has run, GIFtools does not allow you to edit the options anymore. However, you can copy the options (through the menu), and then change the parameters on the copied item.
 
 
 .. _fwdmodExample:
