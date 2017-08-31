@@ -164,6 +164,6 @@ For some forward modelling codes, you can also import the locations file:
 
 .. _fwdmodExample:
 
-.. example:: The magnetics survey file, topography file, and field parameter notes along with a GIFtools project to repeat the above steps to create an octree mesh using the Fortran utility: `download <https://www.eoas.ubc.ca/~sdevries/GIFtoolsExamples/ForwardModelData_example.zip>`__
+.. example:: The magnetics survey file, topography file, field parameter notes, 3D mesh, and susceptibility model along with a GIFtools project to repeat the above steps to forward model data: `download <https://www.eoas.ubc.ca/~sdevries/GIFtoolsExamples/ForwardModelData_example.zip>`__
 
 
