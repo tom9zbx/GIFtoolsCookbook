@@ -17,7 +17,7 @@ Recipes
     Create an octree mesh using a Fortran utility <createOctreeMesh>
     Forward model data in GIFtools <fwdModData>
     Invert data in GIFtools <invertData>
-    Do an equivalent source inversion <ESrecipe>
+    Do an equivalent source inversion <equivSource>
     Forward model amplitude data <fwdModAmpData>
 
 

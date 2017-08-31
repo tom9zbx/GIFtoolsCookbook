@@ -102,9 +102,59 @@ If you view the model (use the visualization menu for the recovered GIFmodel), y
 
 **STEP 3: Forward model amplitude data**
 
-The final step is to forward model amplitude data from the equivalent source model.
+The final step is to forward model amplitude data from the equivalent source model. Using the menus, create a forward modelling item:
 
+**Create** |rarr| **Forward modelling** |rarr| **Magnetics** |rarr| **MAG3D (v6.0)**
 
+.. figure:: ../../images/createAmpData/step3.png
+        :figwidth: 75%
+        :align: center
+
+Select the magnetic data (MAGdata) item that we used for the equivalent source calculation. Convert it to an amplitude data item using the menus:
+
+**Data Manipulation** |rarr| **Choose different data type** |rarr| **Magnetic amplitude data**
+
+.. figure:: ../../images/createAmpData/step3a.png
+        :figwidth: 75%
+        :align: center
+
+The following dialog will appear to set the I/O headers:
+
+.. figure:: ../../images/createAmpData/step3b.png
+        :figwidth: 75%
+        :align: center
+
+Unset the data output using the drop-down menus.
+
+.. figure:: ../../images/createAmpData/step3c.png
+        :figwidth: 75%
+        :align: center
+
+Click "OK". We now have a MAGAMPdata item in the GIFtools project tree.
+
+.. figure:: ../../images/createAmpData/step3d.png
+        :figwidth: 75%
+        :align: center
+
+Select the forward modelling item. Use the menus to edit its options:
+
+**Magnetics forward modelling** |rarr| **Edit options**
+
+The dialog is the exact same as in the :ref:`forward modelling recipe <fwdModData>`. Select the equivalent source model, the amplitude data item, and the topography. Then click "Apply".     
+
+Use the menu to write the files:
+
+**Magnetics forward modelling** |rarr| **Write files**
+
+Then use the menu to run the forward model:
+
+**Magnetics forward modelling** |rarr| **Run MAGFOR3D**
+
+A command window will open up and the code will start running. Once the code has finished, close the command window. Finally, use the menu to import the predicted data into GIFtools:
+
+**Magnetics forward modelling** |rarr| **Load** |rarr| **Predicted data**
+
+The forward modelling item will change into a folder, with the predicted data as an item within that folder. Select the predicted data and view it to see the amplitude data.
 
 .. _ampExample:
 
