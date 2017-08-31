@@ -37,7 +37,7 @@ Enter the desired name. For this example, the name used is "susValue". Click "Va
 	:align: center
 	:figwidth: 100%
 
-Now we can add values to the new column "susVAlue". In this case, we are assigning susceptibility values.
+Now we can add values to the new column "susValue". In this case, we are assigning susceptibility values.
 
 #. Index 0: 0 SI |rarr| air
 #. Index 1: 0 SI |rarr| background
@@ -124,6 +124,11 @@ When visualizing the model (in this case, the susceptibility model in MeshTools 
 .. figure:: ../../images/createModFromGeo/susmodel.png
 	:align: center
 	:figwidth: 75%
+
+
+.. example:: Continue with the `example <http://www.eoas.ubc.ca/~sdevries/GIFtoolsExamples/CreateGeoModelFromImage_Example.zip>`__ from the :ref:`recipe on creating a geologic model <imageInInversion>` and create physical property models using this recipe.
+
+.. example:: This `download <http://www.eoas.ubc.ca/~sdevries/GIFtoolsExamples/CreatePhysPropModelFromGeoImage_Example.zip>`_ also allows you to step through the :ref:`recipe on creating a geologic model from a geologic image <imageInInversion>` and then use this recipe to create a physical property model.
 
 
 
