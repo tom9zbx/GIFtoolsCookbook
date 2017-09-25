@@ -130,7 +130,7 @@ In this section, we summarize the general functionality associated with each dat
 
 **General time-domain EM data (TEMdata)**
 
-- I/O of GIF-formatted TDoctree or EH3DTD data files: see :ref:`general <VToverview>` functionality
+- I/O of GIF-formatted TDoctree or H3DTD data files: see :ref:`general <VToverview>` functionality
 - I/O of ascii-based CSV and XYZ file type: see :ref:`general <VToverview>` functionality
 - Edit datum or standard deviation or completely remove them: see :ref:`general <VToverview>` functionality
 - Add AEM coincident loop sources: `YouTube <https://youtu.be/h9Vd-YPmuvY>`__, `download <http://www.eoas.ubc.ca/~kdavis/giftoolsdocs/addCoincidentLoop.wmv>`__ (10 MB)
